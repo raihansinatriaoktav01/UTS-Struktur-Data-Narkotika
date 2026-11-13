@@ -91,3 +91,32 @@ public class DynamicArray<T> implements struktur.StrukturData<T> {
 
         return false;
     }
+    @Override
+    public void clear() {
+        for (int i = 0; i < jumlah; i++) {
+            data[i] = null;
+        }
+
+        jumlah = 0;
+    }
+
+    public boolean validateInvariant() {
+        if (jumlah < 0 || jumlah > data.length) {
+            return false;
+        }
+
+        for (int i = 0; i < jumlah; i++) {
+            if (data[i] == null) {
+                return false;
+            }
+        }
+
+        for (int i = jumlah; i < data.length; i++) {
+            if (data[i] != null) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
