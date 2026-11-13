@@ -36,3 +36,58 @@ public class DynamicArray<T> implements struktur.StrukturData<T> {
         if (position < 0 || position >= jumlah) {
             throw new IndexOutOfBoundsException("Posisi tidak valid!");
         }
+        return (T) data[position];
+    }
+
+    // Mengganti data pada posisi tertentu.
+    public void set(int position, T value) {
+        if (position < 0 || position >= jumlah) {
+            throw new IndexOutOfBoundsException("Posisi tidak valid!");
+        }
+
+        if (value == null) {
+            throw new IllegalArgumentException("Nilai tidak boleh null!");
+        }
+
+        data[position] = value;
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public T remove(int position) {
+        if (position < 0 || position >= jumlah) {
+            throw new IndexOutOfBoundsException("Posisi tidak valid!");
+        }
+
+        T nilaiDihapus = (T) data[position];
+
+        for (int i = position; i < jumlah - 1; i++) {
+            data[i] = data[i + 1];
+        }
+
+        jumlah--;
+        data[jumlah] = null;
+
+        return nilaiDihapus;
+    }
+
+    @Override
+    public int size() {
+        return jumlah;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return jumlah == 0;
+    }
+
+    @Override
+    public boolean contains(T value) {
+        for (int i = 0; i < jumlah; i++) {
+            if (data[i].equals(value)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
