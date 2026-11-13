@@ -67,3 +67,29 @@ public class HasilAgregasi {
     public String totalDendaTeks() {
         return "Rp " + NumberFormat.getIntegerInstance(ID).format(totalDenda);
     }
+
+    public String laporan(String cakupan) {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("LAPORAN AGREGASI PUTUSAN NARKOTIKA\n");
+        sb.append("Cakupan          : ").append(cakupan).append("\n");
+        sb.append("Jumlah perkara   : ").append(jumlahPerkara).append("\n");
+        sb.append("Rata-rata vonis  : ").append(rataRataVonisTeks()).append("\n");
+        sb.append("Total denda      : ").append(totalDendaTeks()).append("\n");
+        sb.append("\nDistribusi jenis narkotika")
+                .append(" (perkara dengan beberapa zat dihitung di tiap zat):\n");
+
+        for (int i = 0; i < distribusi.size(); i++) {
+            Entri e = distribusi.get(i);
+            long persen = jumlahPerkara == 0
+                    ? 0
+                    : Math.round(e.getJumlah() * 100.0 / jumlahPerkara);
+
+            sb.append(" - ").append(e.getNama())
+                    .append(": ").append(e.getJumlah())
+                    .append(" putusan (").append(persen).append("%)\n");
+        }
+
+        return sb.toString();
+    }
+}
