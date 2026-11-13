@@ -1192,3 +1192,97 @@ public class MainFrame extends JFrame {
                         + (controller.validasiStruktur() ? "valid" : "RUSAK")
         );
     }
+    // Posisi baris tabel di struktur utama. Saat tampilan terurut,
+    // indeks tabel tidak sama dengan indeks struktur, jadi dicari via Case ID.
+    private int posisiStruktur(int barisTabel) {
+        int barisModel = tabel.convertRowIndexToModel(barisTabel);
+        String caseId = String.valueOf(model.getValueAt(barisModel, 0));
+        return controller.cariPosisiCaseId(caseId);
+    }
+
+    private String[] tampilkanForm(String judul, String[] label, String[] nilaiAwal) {
+        JTextField[] input = new JTextField[label.length];
+        JPanel form = new JPanel(new GridLayout(label.length, 2, 6, 6));
+        form.setBackground(PANEL);
+
+        for (int i = 0; i < label.length; i++) {
+            JLabel labelField = new JLabel(label[i]);
+            labelField.setForeground(TEKS);
+
+            String nilai = nilaiAwal == null || nilaiAwal[i] == null
+                    ? ""
+                    : nilaiAwal[i];
+
+            input[i] = new JTextField(nilai, 25);
+            aturTampilanInput(input[i]);
+
+            form.add(labelField);
+            form.add(input[i]);
+        }
+
+        form.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        JScrollPane scrollForm = new JScrollPane(form);
+        scrollForm.setBorder(BorderFactory.createLineBorder(GARIS));
+        gayaScroll(scrollForm);
+        scrollForm.setPreferredSize(new Dimension(700, 450));
+
+        int pilihan = JOptionPane.showConfirmDialog(
+                this,
+                scrollForm,
+                judul,
+                JOptionPane.OK_CANCEL_OPTION,
+                JOptionPane.PLAIN_MESSAGE
+        );
+
+        if (pilihan != JOptionPane.OK_OPTION) {
+            return null;
+        }
+
+        String[] hasil = new String[input.length];
+        for (int i = 0; i < input.length; i++) {
+            hasil[i] = input[i].getText().trim();
+        }
+
+        return hasil;
+    }
+
+    private String[] labelFormPutusan() {
+        return new String[]{
+                "Case ID",
+                "Nomor Perkara",
+                "Pengadilan",
+                "Tanggal Putusan (YYYY-MM-DD)",
+                "Terdakwa Kode",
+                "Jenis Narkotika",
+                "Berat Barang Bukti (gram)",
+                "Pasal Dakwaan",
+                "Pasal Terbukti",
+                "Tuntutan (bulan)",
+                "Vonis (bulan)",
+                "Denda (Rp)",
+                "Barang Bukti",
+                "Keadaan Memberatkan",
+                "Keadaan Meringankan",
+                "Source Pages"
+        };
+    }
+
+    private String aman(String teks) {
+        return teks == null ? "" : teks;
+    }
+
+    private Putusan buatPutusanDariForm(String[] nilai, int posisiYangDiedit) {
+        try {
+            String caseId = nilai[0].trim();
+            String nomorPerkara = nilai[1].trim();
+            String pengadilan = nilai[2].trim();
+
+            if (caseId.isEmpty()
+                    || nomorPerkara.isEmpty()
+                    || pengadilan.isEmpty()) {
+                JOptionPane.showMessageDialog(
+                        this,
+                        "Case ID, Nomor Perkara, dan Pengadilan harus diisi."
+                );
+                return null;
+            }
