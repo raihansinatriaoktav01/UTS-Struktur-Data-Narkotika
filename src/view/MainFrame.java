@@ -1572,3 +1572,157 @@ public class MainFrame extends JFrame {
                     ? entri.substring(pemisah + 3) : entri;
             modelAudit.addRow(new Object[]{i + 1, waktu, aktivitas});
         }
+        JTable tabelAudit = new JTable(modelAudit);
+        tabelAudit.setRowHeight(30);
+        tabelAudit.setFillsViewportHeight(true);
+        tabelAudit.setBackground(BARIS_GELAP);
+        tabelAudit.setForeground(TEKS);
+        tabelAudit.setSelectionBackground(PILIHAN);
+        tabelAudit.setSelectionForeground(Color.WHITE);
+        tabelAudit.setGridColor(GARIS);
+        tabelAudit.getTableHeader().setBackground(new Color(38, 47, 62));
+        tabelAudit.getTableHeader().setForeground(TEKS);
+        tabelAudit.getColumnModel().getColumn(0).setPreferredWidth(55);
+        tabelAudit.getColumnModel().getColumn(1).setPreferredWidth(155);
+        tabelAudit.getColumnModel().getColumn(2).setPreferredWidth(520);
+
+        JScrollPane scrollAudit = new JScrollPane(tabelAudit);
+        scrollAudit.setPreferredSize(new Dimension(760, 360));
+        scrollAudit.getViewport().setBackground(BARIS_GELAP);
+
+        TombolModern tombolEksporAudit = new TombolModern("Ekspor Audit CSV", AKSEN);
+        TombolModern tombolTutup = new TombolModern("Tutup", NETRAL);
+        JPanel aksi = new JPanel(new FlowLayout(FlowLayout.RIGHT, 8, 0));
+        aksi.setOpaque(false);
+        aksi.add(tombolEksporAudit);
+        aksi.add(tombolTutup);
+
+        JPanel isi = new JPanel(new BorderLayout(0, 12));
+        isi.setBackground(PANEL);
+        isi.setBorder(BorderFactory.createEmptyBorder(14, 14, 14, 14));
+        isi.add(scrollAudit, BorderLayout.CENTER);
+        isi.add(aksi, BorderLayout.SOUTH);
+
+        JDialog dialog = new JDialog(this, "Audit Aktivitas", true);
+        dialog.setContentPane(isi);
+        dialog.pack();
+        dialog.setMinimumSize(new Dimension(700, 360));
+        dialog.setLocationRelativeTo(this);
+        tombolTutup.addActionListener(e -> dialog.dispose());
+        tombolEksporAudit.addActionListener(e -> eksporAuditCSV(dialog));
+        dialog.setVisible(true);
+    }
+
+    private void eksporAuditCSV(Component induk) {
+        JFileChooser pemilihFile = new JFileChooser();
+        pemilihFile.setDialogTitle("Ekspor Riwayat Audit (CSV)");
+        pemilihFile.setSelectedFile(new File("RiwayatAudit.csv"));
+
+        if (pemilihFile.showSaveDialog(induk) != JFileChooser.APPROVE_OPTION) {
+            return;
+        }
+
+        File file = pastikanEkstensiCsv(pemilihFile.getSelectedFile());
+        if (!konfirmasiTimpa(file, induk)) {
+            return;
+        }
+
+        try {
+            int jumlah = CSVWriter.exportAuditCSV(file, controller);
+            controller.catatRiwayat("Mengekspor riwayat audit ke " + file.getName());
+            JOptionPane.showMessageDialog(
+                    induk, jumlah + " entri audit berhasil diekspor ke CSV.");
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(
+                    induk,
+                    "Gagal mengekspor audit: " + ex.getMessage(),
+                    "Kesalahan",
+                    JOptionPane.ERROR_MESSAGE
+            );
+        }
+    }
+
+    private void eksporCSV() {
+        Object[] cakupan = {"Semua data", "Data yang sedang ditampilkan"};
+        int pilihanCakupan = JOptionPane.showOptionDialog(
+                this,
+                "Pilih data yang akan diekspor:",
+                "Cakupan Ekspor",
+                JOptionPane.DEFAULT_OPTION,
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                cakupan,
+                cakupan[0]
+        );
+        if (pilihanCakupan < 0) {
+            return;
+        }
+
+        DynamicArray<Putusan> dataEkspor = new DynamicArray<>();
+        if (pilihanCakupan == 0 || sumberTampil == null) {
+            for (int i = 0; i < controller.jumlahPutusan(); i++) {
+                dataEkspor.add(controller.ambilPutusan(i));
+            }
+        } else {
+            for (int i = 0; i < sumberTampil.size(); i++) {
+                dataEkspor.add(sumberTampil.get(i));
+            }
+        }
+
+        JFileChooser pemilihFile = new JFileChooser();
+        pemilihFile.setDialogTitle("Ekspor Data Putusan (CSV)");
+        pemilihFile.setSelectedFile(new File(
+                pilihanCakupan == 0 ? "DataPutusan.csv" : "DataPutusanTampil.csv"));
+
+        int pilihan = pemilihFile.showSaveDialog(this);
+
+        if (pilihan != JFileChooser.APPROVE_OPTION) {
+            return;
+        }
+
+        File file = pastikanEkstensiCsv(pemilihFile.getSelectedFile());
+        if (!konfirmasiTimpa(file, this)) {
+            return;
+        }
+
+        try {
+            int jumlah = CSVWriter.exportCSV(file, dataEkspor);
+            String deskripsi = pilihanCakupan == 0
+                    ? "seluruh data" : "data yang sedang ditampilkan";
+            controller.catatRiwayat("Mengekspor " + deskripsi + " ("
+                    + jumlah + " putusan) ke " + file.getName());
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    jumlah + " data putusan berhasil diekspor ke CSV."
+            );
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Gagal mengekspor CSV: " + ex.getMessage(),
+                    "Kesalahan",
+                    JOptionPane.ERROR_MESSAGE
+            );
+        }
+    }
+
+    private File pastikanEkstensiCsv(File file) {
+        if (file.getName().toLowerCase(Locale.ROOT).endsWith(".csv")) {
+            return file;
+        }
+        return new File(file.getParentFile(), file.getName() + ".csv");
+    }
+
+    private boolean konfirmasiTimpa(File file, Component induk) {
+        if (!file.exists()) {
+            return true;
+        }
+        int konfirmasi = JOptionPane.showConfirmDialog(
+                induk,
+                "File sudah ada. Apakah ingin menimpanya?",
+                "Konfirmasi Ekspor",
+                JOptionPane.YES_NO_OPTION
+        );
+        return konfirmasi == JOptionPane.YES_OPTION;
+    }
+}
