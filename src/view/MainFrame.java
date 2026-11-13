@@ -1133,3 +1133,62 @@ public class MainFrame extends JFrame {
             baris.setMaximumSize(new Dimension(Integer.MAX_VALUE, 34));
             daftar.add(baris);
         }
+        JScrollPane scrollDaftar = new JScrollPane(daftar);
+        scrollDaftar.setBorder(BorderFactory.createEmptyBorder());
+        scrollDaftar.setOpaque(false);
+        scrollDaftar.getViewport().setOpaque(false);
+        scrollDaftar.setAlignmentX(Component.LEFT_ALIGNMENT);
+        scrollDaftar.setPreferredSize(new Dimension(
+                640, Math.min(34 * Math.max(distribusi.size(), 1) + 6, 230)));
+        gayaScroll(scrollDaftar);
+
+        JPanel panel = new JPanel();
+        panel.setBackground(PANEL);
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        panel.setBorder(BorderFactory.createEmptyBorder(6, 8, 6, 8));
+        panel.add(labelCakupan);
+        panel.add(Box.createVerticalStrut(12));
+        panel.add(barisChip);
+        panel.add(Box.createVerticalStrut(20));
+        panel.add(judulDistribusi);
+        panel.add(Box.createVerticalStrut(2));
+        panel.add(catatan);
+        panel.add(Box.createVerticalStrut(8));
+        panel.add(scrollDaftar);
+        return panel;
+    }
+
+    // Baris di model tabel untuk sebuah Case ID (-1 jika tidak sedang tampil)
+    private int cariBarisModel(String caseId) {
+        for (int baris = 0; baris < model.getRowCount(); baris++) {
+            if (caseId.equals(String.valueOf(model.getValueAt(baris, 0)))) {
+                return baris;
+            }
+        }
+        return -1;
+    }
+
+    private void perbaruiStatus() {
+        String urutan;
+
+        if (modeUrut == 1) {
+            urutan = "Vonis naik (" + controller.getLangkahUrutTerakhir()
+                    + " perbandingan)";
+        } else if (modeUrut == 2) {
+            urutan = "Vonis turun (" + controller.getLangkahUrutTerakhir()
+                    + " perbandingan)";
+        } else {
+            urutan = "Asli";
+        }
+
+        labelStatus.setText(
+                "Urutan: " + urutan
+                        + "  |  Data: " + controller.jumlahPutusan()
+                        + "  |  Filter: "
+                        + (kriteriaAktif == null
+                        ? "tidak aktif"
+                        : "aktif, tampil " + jumlahTampil)
+                        + "  |  Invariant: "
+                        + (controller.validasiStruktur() ? "valid" : "RUSAK")
+        );
+    }
