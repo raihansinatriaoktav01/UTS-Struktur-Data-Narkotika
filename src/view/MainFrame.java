@@ -919,3 +919,116 @@ public class MainFrame extends JFrame {
             );
             return;
         }
+// Tampilan bisa terurut atau terfilter, jadi baris dicari lewat Case ID
+        String caseId = hasil.getPutusan().getCaseId();
+        int baris = cariBarisModel(caseId);
+
+        // Filter dilepas hanya jika baris hasil pencarian sedang tersembunyi
+        if (baris == -1 && kriteriaAktif != null) {
+            kosongkanFilter();
+            tampilkanSemua();
+            baris = cariBarisModel(caseId);
+        }
+
+        if (baris != -1) {
+            int tampil = tabel.convertRowIndexToView(baris);
+            tabel.setRowSelectionInterval(tampil, tampil);
+            tabel.scrollRectToVisible(tabel.getCellRect(tampil, 0, true));
+        }
+
+        labelHasilCari.setText(
+                "Ditemukan di posisi ke-" + (hasil.getPosisi() + 1)
+                        + " dari " + controller.jumlahPutusan()
+                        + "  |  langkah: " + hasil.getLangkah()
+        );
+    }
+
+    private Double parseDesimal(String teks) {
+        String bersih = teks.trim().replace(',', '.');
+
+        if (bersih.isEmpty()) {
+            return null;
+        }
+
+        double nilai = Double.parseDouble(bersih);
+
+        if (Double.isNaN(nilai) || Double.isInfinite(nilai)) {
+            throw new NumberFormatException("bukan angka biasa");
+        }
+
+        return nilai;
+    }
+
+    private Integer parseBulat(String teks) {
+        String bersih = teks.trim();
+
+        if (bersih.isEmpty()) {
+            return null;
+        }
+
+        return Integer.valueOf(bersih);
+    }
+
+    // Menerapkan semua kriteria yang terisi sekaligus (AND)
+    private void terapkanFilterGabungan() {
+        try {
+            Double beratMin = parseDesimal(inputBeratMin.getText());
+            Double beratMax = parseDesimal(inputBeratMax.getText());
+            Integer vonisMin = parseBulat(inputVonisMin.getText());
+            Integer vonisMax = parseBulat(inputVonisMax.getText());
+
+            if ((beratMin != null && beratMin < 0)
+                    || (beratMax != null && beratMax < 0)
+                    || (vonisMin != null && vonisMin < 0)
+                    || (vonisMax != null && vonisMax < 0)) {
+                JOptionPane.showMessageDialog(
+                        this, "Berat dan vonis tidak boleh negatif.");
+                return;
+            }
+
+            if (beratMin != null && beratMax != null && beratMin > beratMax) {
+                JOptionPane.showMessageDialog(
+                        this, "Berat minimum tidak boleh lebih besar dari maksimum.");
+                return;
+            }
+
+            if (vonisMin != null && vonisMax != null && vonisMin > vonisMax) {
+                JOptionPane.showMessageDialog(
+                        this, "Vonis minimum tidak boleh lebih besar dari maksimum.");
+                return;
+            }
+
+            KriteriaFilter kriteria = new KriteriaFilter(
+                    inputJenis.getText(),
+                    inputPasal.getText(),
+                    beratMin, beratMax,
+                    vonisMin, vonisMax
+            );
+
+            if (kriteria.kosong()) {
+                JOptionPane.showMessageDialog(
+                        this, "Isi minimal satu kriteria filter.");
+                return;
+            }
+
+            kriteriaAktif = kriteria;
+            tampilkanSemua();
+            filterController.catat(kriteria, jumlahTampil);
+
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Berat harus berupa angka (contoh 0.5) dan vonis berupa bilangan bulat."
+            );
+        }
+    }
+
+    private void kosongkanFilter() {
+        inputJenis.setText("");
+        inputPasal.setText("");
+        inputBeratMin.setText("");
+        inputBeratMax.setText("");
+        inputVonisMin.setText("");
+        inputVonisMax.setText("");
+        kriteriaAktif = null;
+    }
