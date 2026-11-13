@@ -292,3 +292,86 @@ public class MainFrame extends JFrame {
         area.add(labelStatus, BorderLayout.SOUTH);
         return area;
     }
+    private void gayaTabel() {
+        tabel.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+        tabel.setRowHeight(36);
+        tabel.setFont(font(Font.PLAIN, 13));
+        tabel.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        tabel.setFillsViewportHeight(true);
+        tabel.setBackground(BARIS_GELAP);
+        tabel.setForeground(TEKS);
+        tabel.setSelectionBackground(PILIHAN);
+        tabel.setSelectionForeground(Color.WHITE);
+        tabel.setShowVerticalLines(false);
+        tabel.setShowHorizontalLines(true);
+        tabel.setGridColor(new Color(40, 48, 62));
+        tabel.setIntercellSpacing(new Dimension(0, 1));
+
+        Border isiSel = BorderFactory.createEmptyBorder(0, 12, 0, 12);
+
+        DefaultTableCellRenderer rendererIsi = new DefaultTableCellRenderer() {
+            @Override
+            public Component getTableCellRendererComponent(
+                    JTable table, Object value, boolean isSelected,
+                    boolean hasFocus, int row, int column) {
+
+                int kolomModel = table.convertColumnIndexToModel(column);
+                Object tampil = value;
+
+                // Denda ditampilkan berformat rupiah (nilai di model tetap angka)
+                if (kolomModel == 11 && value instanceof Number) {
+                    tampil = "Rp " + FORMAT_RUPIAH.format(((Number) value).longValue());
+                }
+
+                JLabel sel = (JLabel) super.getTableCellRendererComponent(
+                        table, tampil, false, false, row, column);
+
+                sel.setBorder(isiSel);
+                sel.setToolTipText(tampil == null ? null : String.valueOf(tampil));
+                sel.setBackground(isSelected
+                        ? PILIHAN
+                        : (row % 2 == 0 ? BARIS_GELAP : BARIS_TERANG));
+
+                if (isSelected) {
+                    sel.setForeground(Color.WHITE);
+                } else if (kolomModel == 0) {
+                    sel.setForeground(new Color(142, 172, 214));
+                } else if (kolomModel == 10) {
+                    sel.setForeground(EMAS);
+                } else {
+                    sel.setForeground(TEKS);
+                }
+
+                sel.setFont(font(
+                        kolomModel == 0 || kolomModel == 10 ? Font.BOLD : Font.PLAIN,
+                        13));
+                return sel;
+            }
+        };
+
+        for (int kolom = 0; kolom < tabel.getColumnCount(); kolom++) {
+            tabel.getColumnModel().getColumn(kolom).setCellRenderer(rendererIsi);
+        }
+
+        Border borderHeader = BorderFactory.createCompoundBorder(
+                BorderFactory.createMatteBorder(0, 0, 2, 0, AKSEN),
+                BorderFactory.createEmptyBorder(0, 12, 0, 12)
+        );
+
+        DefaultTableCellRenderer rendererHeader = new DefaultTableCellRenderer() {
+            @Override
+            public Component getTableCellRendererComponent(
+                    JTable table, Object value, boolean isSelected,
+                    boolean hasFocus, int row, int column) {
+
+                JLabel sel = (JLabel) super.getTableCellRendererComponent(
+                        table, value, false, false, row, column);
+
+                sel.setBorder(borderHeader);
+                sel.setBackground(new Color(38, 47, 62));
+                sel.setForeground(new Color(184, 196, 214));
+                sel.setFont(font(Font.BOLD, 12));
+                sel.setHorizontalAlignment(SwingConstants.LEFT);
+                return sel;
+            }
+        };
