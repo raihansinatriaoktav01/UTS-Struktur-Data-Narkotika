@@ -448,3 +448,53 @@ public class MainFrame extends JFrame {
                 )
         );
     }
+    private void perbaruiTombolUrut() {
+        tombolUrut[0].setAktif(modeUrut == 1);
+        tombolUrut[1].setAktif(modeUrut == 2);
+        tombolUrut[2].setAktif(modeUrut == 0);
+    }
+
+    // Kartu ringkasan di header
+    private void perbaruiRingkasan() {
+        boolean valid = controller.validasiStruktur();
+
+        chipTotal.set(String.valueOf(controller.jumlahPutusan()), TEKS);
+        chipTampil.set(String.valueOf(jumlahTampil),
+                kriteriaAktif == null ? TEKS : EMAS);
+        chipInvarian.set(valid ? "Valid" : "Rusak",
+                valid ? new Color(140, 190, 164) : new Color(214, 128, 132));
+    }
+
+    // ================== Komponen kustom ==================
+
+    private static String pilihFont() {
+        try {
+            String[] pilihan = {"Segoe UI", "Inter", "Helvetica Neue",
+                    "Roboto", "Ubuntu", "Noto Sans"};
+            String[] ada = GraphicsEnvironment.getLocalGraphicsEnvironment()
+                    .getAvailableFontFamilyNames();
+
+            for (String p : pilihan) {
+                for (String a : ada) {
+                    if (a.equalsIgnoreCase(p)) {
+                        return p;
+                    }
+                }
+            }
+        } catch (Exception ignored) {
+            // memakai font bawaan
+        }
+        return "SansSerif";
+    }
+
+    private static Font font(int gaya, int ukuran) {
+        return new Font(FONT, gaya, ukuran);
+    }
+
+    private static Color lebihTerang(Color c, int tambah) {
+        return new Color(
+                Math.min(255, c.getRed() + tambah),
+                Math.min(255, c.getGreen() + tambah),
+                Math.min(255, c.getBlue() + tambah)
+        );
+    }
