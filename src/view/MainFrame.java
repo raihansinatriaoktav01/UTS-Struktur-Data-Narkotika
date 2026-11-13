@@ -375,3 +375,76 @@ public class MainFrame extends JFrame {
                 return sel;
             }
         };
+        tabel.getTableHeader().setDefaultRenderer(rendererHeader);
+        tabel.getTableHeader().setReorderingAllowed(false);
+        tabel.getTableHeader().setBackground(new Color(38, 47, 62));
+        tabel.getTableHeader().setPreferredSize(new Dimension(0, 38));
+
+        int[] lebarKolom = {
+                90, 190, 210, 130,
+                120, 220, 170, 250,
+                250, 130, 120, 170,
+                300, 300, 300, 150
+        };
+
+        for (int i = 0; i < lebarKolom.length; i++) {
+            tabel.getColumnModel().getColumn(i).setPreferredWidth(lebarKolom[i]);
+        }
+    }
+
+    private void gayaScroll(JScrollPane panel) {
+        panel.getVerticalScrollBar().setUI(new ScrollBarModern());
+        panel.getHorizontalScrollBar().setUI(new ScrollBarModern());
+        panel.getVerticalScrollBar().setPreferredSize(new Dimension(12, 12));
+        panel.getHorizontalScrollBar().setPreferredSize(new Dimension(12, 12));
+        panel.getVerticalScrollBar().setUnitIncrement(18);
+        panel.getVerticalScrollBar().setBackground(LATAR);
+        panel.getHorizontalScrollBar().setBackground(LATAR);
+
+        JPanel sudut = new JPanel();
+        sudut.setBackground(LATAR);
+        panel.setCorner(ScrollPaneConstants.LOWER_RIGHT_CORNER, sudut);
+    }
+
+    // ---- Pembantu tata letak kartu ----
+
+    private JPanel kolom() {
+        JPanel panel = new JPanel();
+        panel.setOpaque(false);
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        return panel;
+    }
+
+    private JComponent lebarPenuh(JComponent komponen) {
+        komponen.setAlignmentX(Component.LEFT_ALIGNMENT);
+        Dimension pref = komponen.getPreferredSize();
+        komponen.setMaximumSize(new Dimension(Integer.MAX_VALUE, pref.height));
+        return komponen;
+    }
+
+    private JLabel labelKecil(String teks) {
+        JLabel label = new JLabel(teks);
+        label.setFont(font(Font.PLAIN, 12));
+        label.setForeground(TEKS_REdup);
+        label.setAlignmentX(Component.LEFT_ALIGNMENT);
+        label.setBorder(BorderFactory.createEmptyBorder(0, 2, 5, 0));
+        return label;
+    }
+
+    private JTextField buatInput(String petunjuk) {
+        return new InputModern(petunjuk);
+    }
+
+    private void aturTampilanInput(JTextField input) {
+        input.setBackground(INPUT);
+        input.setForeground(TEKS);
+        input.setCaretColor(Color.WHITE);
+        input.setSelectionColor(PILIHAN);
+        input.setFont(font(Font.PLAIN, 13));
+        input.setBorder(
+                BorderFactory.createCompoundBorder(
+                        BorderFactory.createLineBorder(GARIS),
+                        BorderFactory.createEmptyBorder(6, 9, 6, 9)
+                )
+        );
+    }
