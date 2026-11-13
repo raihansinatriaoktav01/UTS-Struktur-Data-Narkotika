@@ -134,3 +134,108 @@ public class MainFrame extends JFrame {
                         "Source Pages"
                 },
                 0
+        ) {
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        };
+
+        tabel = new JTable(model);
+        sorter = new TableRowSorter<>(model);
+        tabel.setRowSorter(sorter);
+
+        // Pengurutan memakai algoritma buatan sendiri (tombol Urut Vonis),
+        // jadi pengurutan bawaan JTable (klik header) dinonaktifkan.
+        for (int k = 0; k < model.getColumnCount(); k++) {
+            sorter.setSortable(k, false);
+        }
+
+        // Komponen input dan status
+        inputJenis = buatInput("mis. Sabu");
+        inputPasal = buatInput("mis. Pasal 114");
+        inputBeratMin = buatInput("Min");
+        inputBeratMax = buatInput("Maks");
+        inputVonisMin = buatInput("Min");
+        inputVonisMax = buatInput("Maks");
+        inputCari = buatInput("Ketik lalu tekan Enter");
+
+        pilihCaseId = new PilTogel("Case ID");
+        pilihNomorPerkara = new PilTogel("Nomor Perkara");
+        ButtonGroup kelompokCari = new ButtonGroup();
+        kelompokCari.add(pilihCaseId);
+        kelompokCari.add(pilihNomorPerkara);
+        pilihCaseId.setSelected(true);
+
+        labelHasilCari = new JLabel(" ") {
+            // Teks dibungkus HTML agar turun baris di dalam kartu sempit
+            @Override
+            public void setText(String teks) {
+                super.setText(teks == null ? null
+                        : "<html><div style='width:230px'>"
+                        + teks.trim().replace("|", "<br>")
+                        + "</div></html>");
+            }
+        };
+        labelHasilCari.setFont(font(Font.PLAIN, 12));
+        labelHasilCari.setForeground(TEKS_REdup);
+
+        tombolUrut = new TombolModern[]{
+                new TombolModern("Naik", NETRAL),
+                new TombolModern("Turun", NETRAL),
+                new TombolModern("Asli", NETRAL)
+        };
+
+        chipTotal = new Chip("TOTAL DATA");
+        chipTampil = new Chip("DITAMPILKAN");
+        chipInvarian = new Chip("INVARIANT");
+
+        labelStatus = new JLabel(" ");
+        labelStatus.setFont(font(Font.PLAIN, 12));
+        labelStatus.setForeground(TEKS_REdup);
+
+        gayaTabel();
+
+        setLayout(new BorderLayout());
+        add(buatHeader(), BorderLayout.NORTH);
+        add(buatBody(), BorderLayout.CENTER);
+
+        tampilkanSemua();
+    }
+
+    // ================== Pembentuk tampilan ==================
+
+    private JComponent buatHeader() {
+        JLabel judul = new JLabel("Sistem Data Putusan Narkotika");
+        judul.setFont(font(Font.BOLD, 21));
+        judul.setForeground(TEKS);
+
+        JLabel sub = new JLabel(
+                "Arsip putusan pengadilan negeri  |  Dynamic Array buatan sendiri"
+        );
+        sub.setFont(font(Font.PLAIN, 12));
+        sub.setForeground(TEKS_REdup);
+
+        JPanel teks = new JPanel();
+        teks.setOpaque(false);
+        teks.setLayout(new BoxLayout(teks, BoxLayout.Y_AXIS));
+        teks.add(judul);
+        teks.add(Box.createVerticalStrut(3));
+        teks.add(sub);
+
+        JPanel chip = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 0));
+        chip.setOpaque(false);
+        chip.add(chipTotal);
+        chip.add(chipTampil);
+        chip.add(chipInvarian);
+
+        JPanel header = new JPanel(new BorderLayout());
+        header.setBackground(HEADER);
+        header.setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createMatteBorder(0, 0, 1, 0, GARIS),
+                BorderFactory.createEmptyBorder(12, 22, 12, 22)
+        ));
+        header.add(teks, BorderLayout.WEST);
+        header.add(chip, BorderLayout.EAST);
+        return header;
+    }
