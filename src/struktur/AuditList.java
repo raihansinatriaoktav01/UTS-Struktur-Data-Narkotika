@@ -84,3 +84,28 @@ public class AuditList<T> {
             nomor++;
         }
     }
+    // Memeriksa kondisi Linked List
+    public boolean validateInvariant() {
+        if (jumlah < 0) {
+            return false;
+        }
+
+        if (jumlah == 0) {
+            return head == null && tail == null;
+        }
+
+        if (head == null || tail == null || tail.next != null) {
+            return false;
+        }
+
+        Node current = head;
+        int hitung = 0;
+
+        while (current != null) {
+            hitung++;
+            current = current.next;
+        }
+
+        return hitung == jumlah;
+    }
+}
