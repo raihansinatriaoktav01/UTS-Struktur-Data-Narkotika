@@ -1498,3 +1498,77 @@ public class MainFrame extends JFrame {
                     .append(model.getValueAt(barisModel, kolom))
                     .append("\n\n");
         }
+        JTextArea areaDetail = new JTextArea(detail.toString(), 20, 50);
+        areaDetail.setEditable(false);
+        areaDetail.setLineWrap(true);
+        areaDetail.setWrapStyleWord(true);
+        areaDetail.setBackground(BARIS_GELAP);
+        areaDetail.setForeground(TEKS);
+        areaDetail.setCaretColor(Color.WHITE);
+        areaDetail.setFont(font(Font.PLAIN, 13));
+        areaDetail.setMargin(new Insets(10, 12, 10, 12));
+
+        JOptionPane.showMessageDialog(
+                this,
+                new JScrollPane(areaDetail),
+                "Detail Putusan",
+                JOptionPane.INFORMATION_MESSAGE
+        );
+    }
+
+    private void imporCSV() {
+        JFileChooser pemilihFile = new JFileChooser();
+        pemilihFile.setDialogTitle("Impor Data Putusan (CSV)");
+
+        if (pemilihFile.showOpenDialog(this) != JFileChooser.APPROVE_OPTION) {
+            return;
+        }
+
+        // Data valid ditambahkan ke struktur; caseId yang sudah ada ditolak.
+        HasilImpor hasil = CSVReader.importCSV(
+                pemilihFile.getSelectedFile().getPath(),
+                controller
+        );
+
+        tampilkanSemua();
+
+        JTextArea areaHasil = new JTextArea(
+                hasil.ringkasan(controller.jumlahPutusan()), 18, 60
+        );
+        areaHasil.setEditable(false);
+        areaHasil.setLineWrap(true);
+        areaHasil.setWrapStyleWord(true);
+        areaHasil.setBackground(BARIS_GELAP);
+        areaHasil.setForeground(TEKS);
+        areaHasil.setFont(font(Font.PLAIN, 13));
+        areaHasil.setMargin(new Insets(10, 12, 10, 12));
+
+        JOptionPane.showMessageDialog(
+                this,
+                new JScrollPane(areaHasil),
+                "Hasil Impor CSV",
+                hasil.getDitolak() > 0 || hasil.jumlahPeringatan() > 0
+                        ? JOptionPane.WARNING_MESSAGE
+                        : JOptionPane.INFORMATION_MESSAGE
+        );
+    }
+
+    private void tampilkanAudit() {
+        controller.catatRiwayat("Membuka tampilan audit");
+
+        DefaultTableModel modelAudit = new DefaultTableModel(
+                new Object[]{"No.", "Waktu", "Aktivitas"}, 0) {
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        };
+
+        for (int i = 0; i < controller.jumlahRiwayat(); i++) {
+            String entri = controller.ambilRiwayat(i);
+            int pemisah = entri.indexOf(" | ");
+            String waktu = pemisah >= 0 ? entri.substring(0, pemisah) : "-";
+            String aktivitas = pemisah >= 0
+                    ? entri.substring(pemisah + 3) : entri;
+            modelAudit.addRow(new Object[]{i + 1, waktu, aktivitas});
+        }
