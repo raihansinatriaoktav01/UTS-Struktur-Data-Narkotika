@@ -574,3 +574,132 @@ public class MainFrame extends JFrame {
             setCursor(new Cursor(Cursor.HAND_CURSOR));
             setBorder(BorderFactory.createEmptyBorder(8, 10, 8, 10));
         }
+        @Override
+        protected void paintComponent(Graphics g) {
+            Graphics2D g2 = halus(g);
+
+            if (isSelected()) {
+                g2.setColor(AKSEN);
+                g2.fillRoundRect(0, 0, getWidth(), getHeight(), 10, 10);
+                setForeground(Color.WHITE);
+            } else {
+                g2.setColor(INPUT);
+                g2.fillRoundRect(0, 0, getWidth(), getHeight(), 10, 10);
+                g2.setColor(GARIS);
+                g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 10, 10);
+                setForeground(TEKS_REdup);
+            }
+
+            g2.dispose();
+            super.paintComponent(g);
+        }
+    }
+
+    // Kolom input membulat dengan teks petunjuk
+    private static class InputModern extends JTextField {
+        private final String petunjuk;
+
+        InputModern(String petunjuk) {
+            this.petunjuk = petunjuk;
+            setOpaque(false);
+            setForeground(TEKS);
+            setCaretColor(Color.WHITE);
+            setSelectionColor(PILIHAN);
+            setFont(font(Font.PLAIN, 13));
+            setBorder(BorderFactory.createEmptyBorder(9, 11, 9, 11));
+
+            addFocusListener(new FocusAdapter() {
+                @Override
+                public void focusGained(FocusEvent e) {
+                    repaint();
+                }
+
+                @Override
+                public void focusLost(FocusEvent e) {
+                    repaint();
+                }
+            });
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            Graphics2D g2 = halus(g);
+            g2.setColor(INPUT);
+            g2.fillRoundRect(0, 0, getWidth(), getHeight(), 10, 10);
+            g2.setColor(isFocusOwner() ? AKSEN : GARIS);
+            g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 10, 10);
+            g2.dispose();
+
+            super.paintComponent(g);
+
+            if (getText().isEmpty() && petunjuk != null) {
+                Graphics2D g3 = halus(g);
+                g3.setColor(new Color(148, 160, 178, 140));
+                g3.setFont(getFont());
+                FontMetrics fm = g3.getFontMetrics();
+                int y = (getHeight() - fm.getHeight()) / 2 + fm.getAscent();
+                g3.drawString(petunjuk, getInsets().left, y);
+                g3.dispose();
+            }
+        }
+    }
+
+    // Batang horizontal untuk persentase pada dialog agregasi
+    private static class BatangPersen extends JComponent {
+        private final double bagian;
+
+        BatangPersen(double bagian) {
+            this.bagian = Math.max(0, Math.min(1, bagian));
+            setPreferredSize(new Dimension(100, 22));
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            int tinggi = 10;
+            int y = (getHeight() - tinggi) / 2;
+
+            Graphics2D g2 = halus(g);
+            g2.setColor(INPUT);
+            g2.fillRoundRect(0, y, getWidth(), tinggi, tinggi, tinggi);
+
+            int isi = (int) Math.round(getWidth() * bagian);
+            if (isi > 0) {
+                g2.setColor(AKSEN);
+                g2.fillRoundRect(0, y, Math.max(isi, tinggi), tinggi, tinggi, tinggi);
+            }
+            g2.dispose();
+        }
+    }
+
+    // Kartu pembungkus bagian sidebar
+    private static class Kartu extends JPanel {
+        Kartu(String judul, JComponent isi) {
+            super(new BorderLayout(0, 12));
+            setOpaque(false);
+            setAlignmentX(Component.LEFT_ALIGNMENT);
+            setBorder(BorderFactory.createEmptyBorder(15, 16, 16, 16));
+
+            JLabel label = new JLabel(judul);
+            label.setFont(font(Font.BOLD, 14));
+            label.setForeground(TEKS);
+
+            add(label, BorderLayout.NORTH);
+            add(isi, BorderLayout.CENTER);
+        }
+
+        @Override
+        public Dimension getMaximumSize() {
+            return new Dimension(Integer.MAX_VALUE, getPreferredSize().height);
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            Graphics2D g2 = halus(g);
+            g2.setColor(PANEL);
+            g2.fillRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 16, 16);
+            g2.setColor(GARIS);
+            g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 16, 16);
+            g2.dispose();
+            super.paintComponent(g);
+        }
+    }
