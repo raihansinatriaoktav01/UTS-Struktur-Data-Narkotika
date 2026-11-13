@@ -239,3 +239,56 @@ public class MainFrame extends JFrame {
         header.add(chip, BorderLayout.EAST);
         return header;
     }
+    private JComponent buatAreaTabel() {
+        TombolModern tombolImpor = new TombolModern("Impor CSV", AKSEN);
+        TombolModern tombolTambah = new TombolModern("Tambah", HIJAU);
+        TombolModern tombolEdit = new TombolModern("Edit", NETRAL);
+        TombolModern tombolHapus = new TombolModern("Hapus", MERAH);
+        TombolModern tombolDetail = new TombolModern("Detail", NETRAL);
+        TombolModern tombolAgregasi = new TombolModern("Agregasi", UNGU);
+        TombolModern tombolAudit = new TombolModern("Audit", UNGU);
+        TombolModern tombolEkspor = new TombolModern("Ekspor CSV", NETRAL);
+
+        tombolImpor.addActionListener(e -> imporCSV());
+        tombolTambah.addActionListener(e -> tambahPutusan());
+        tombolEdit.addActionListener(e -> editPutusanTerpilih());
+        tombolHapus.addActionListener(e -> hapusPutusanTerpilih());
+        tombolDetail.addActionListener(e -> lihatDetailTerpilih());
+        tombolAgregasi.addActionListener(e -> tampilkanAgregasi());
+        tombolAudit.addActionListener(e -> tampilkanAudit());
+        tombolEkspor.addActionListener(e -> eksporCSV());
+        tombolEkspor.setToolTipText(
+                "Ekspor semua putusan atau data yang sedang ditampilkan ke CSV");
+
+        JPanel tombol = new JPanel(new GridLayout(2, 4, 8, 8));
+        tombol.setOpaque(false);
+        tombol.add(tombolImpor);
+        tombol.add(tombolTambah);
+        tombol.add(tombolEdit);
+        tombol.add(tombolHapus);
+        tombol.add(tombolDetail);
+        tombol.add(tombolAgregasi);
+        tombol.add(tombolAudit);
+        tombol.add(tombolEkspor);
+
+        JLabel judulTabel = new JLabel("Daftar Putusan");
+        judulTabel.setFont(font(Font.BOLD, 16));
+        judulTabel.setForeground(TEKS);
+
+        JPanel bar = new JPanel(new BorderLayout());
+        bar.setOpaque(false);
+        bar.add(judulTabel, BorderLayout.WEST);
+        bar.add(tombol, BorderLayout.EAST);
+
+        JScrollPane scroll = new JScrollPane(tabel);
+        scroll.getViewport().setBackground(BARIS_GELAP);
+        scroll.setBorder(BorderFactory.createLineBorder(GARIS));
+        gayaScroll(scroll);
+
+        JPanel area = new JPanel(new BorderLayout(0, 12));
+        area.setOpaque(false);
+        area.add(bar, BorderLayout.NORTH);
+        area.add(scroll, BorderLayout.CENTER);
+        area.add(labelStatus, BorderLayout.SOUTH);
+        return area;
+    }
