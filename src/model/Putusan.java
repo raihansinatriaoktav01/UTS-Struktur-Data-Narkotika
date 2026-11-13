@@ -27,3 +27,86 @@ public class Putusan {
                    int tuntutanBulan, int vonisBulan, long dendaRupiah,
                    String barangBukti, String keadaanMemberatkan,
                    String keadaanMeringankan, String sourcePages) {
+
+        this.caseId = caseId;
+        this.nomorPerkara = nomorPerkara;
+        this.pengadilan = pengadilan;
+        this.tanggalPutusan = tanggalPutusan;
+        this.terdakwaKode = terdakwaKode;
+        this.jenisNarkotika = jenisNarkotika;
+        this.beratBarangBuktiGram = beratBarangBuktiGram;
+        this.pasalDakwaan = pasalDakwaan;
+        this.pasalTerbukti = pasalTerbukti;
+        this.tuntutanBulan = tuntutanBulan;
+        this.vonisBulan = vonisBulan;
+        this.dendaRupiah = dendaRupiah;
+        this.barangBukti = barangBukti;
+        this.keadaanMemberatkan = keadaanMemberatkan;
+        this.keadaanMeringankan = keadaanMeringankan;
+        this.sourcePages = sourcePages;
+    }
+
+    public String getCaseId() {
+        return caseId;
+    }
+
+    public String getNomorPerkara() {
+        return nomorPerkara;
+    }
+
+    public String getPengadilan() {
+        return pengadilan;
+    }
+
+    public LocalDate getTanggalPutusan() {
+        return tanggalPutusan;
+    }
+
+    public String getTerdakwaKode() {
+        return terdakwaKode;
+    }
+
+    public String getJenisNarkotika() {
+        return jenisNarkotika;
+    }
+
+    public double getBeratBarangBuktiGram() {
+        return beratBarangBuktiGram;
+    }
+
+    public String getPasalDakwaan() {
+        return pasalDakwaan;
+    }
+
+    public String getPasalTerbukti() {
+        return pasalTerbukti;
+    }
+
+    public int getTuntutanBulan() {
+        return tuntutanBulan;
+    }
+
+    public int getVonisBulan() {
+        return vonisBulan;
+    }
+
+    public long getDendaRupiah() {
+        return dendaRupiah;
+    }
+
+    public String getBarangBukti() {
+        return barangBukti;
+    }
+
+    public String getKeadaanMemberatkan() {
+        return keadaanMemberatkan;
+    }
+
+    public String getKeadaanMeringankan() {
+        return keadaanMeringankan;
+    }
+
+    public String getSourcePages() {
+        return sourcePages;
+    }
+}
