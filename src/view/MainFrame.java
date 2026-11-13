@@ -1374,3 +1374,127 @@ public class MainFrame extends JFrame {
         if (nilai == null) {
             return;
         }
+        Putusan putusanBaru = buatPutusanDariForm(nilai, -1);
+
+        if (putusanBaru != null) {
+            controller.tambahPutusan(putusanBaru);
+            kosongkanFilter();
+            tampilkanSemua();
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Putusan berhasil ditambahkan."
+            );
+        }
+    }
+
+    private void editPutusanTerpilih() {
+        int barisTabel = tabel.getSelectedRow();
+
+        if (barisTabel == -1) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Pilih data putusan yang ingin diedit terlebih dahulu."
+            );
+            return;
+        }
+
+        int barisModel = posisiStruktur(barisTabel);
+        Putusan dataLama = controller.ambilPutusan(barisModel);
+
+        String[] nilaiAwal = {
+                aman(dataLama.getCaseId()),
+                aman(dataLama.getNomorPerkara()),
+                aman(dataLama.getPengadilan()),
+                dataLama.getTanggalPutusan() == null
+                        ? ""
+                        : dataLama.getTanggalPutusan().toString(),
+                aman(dataLama.getTerdakwaKode()),
+                aman(dataLama.getJenisNarkotika()),
+                String.valueOf(dataLama.getBeratBarangBuktiGram()),
+                aman(dataLama.getPasalDakwaan()),
+                aman(dataLama.getPasalTerbukti()),
+                String.valueOf(dataLama.getTuntutanBulan()),
+                String.valueOf(dataLama.getVonisBulan()),
+                String.valueOf(dataLama.getDendaRupiah()),
+                aman(dataLama.getBarangBukti()),
+                aman(dataLama.getKeadaanMemberatkan()),
+                aman(dataLama.getKeadaanMeringankan()),
+                aman(dataLama.getSourcePages())
+        };
+
+        String[] nilaiBaru = tampilkanForm(
+                "Edit Putusan",
+                labelFormPutusan(),
+                nilaiAwal
+        );
+
+        if (nilaiBaru == null) {
+            return;
+        }
+
+        Putusan hasilEdit = buatPutusanDariForm(nilaiBaru, barisModel);
+
+        if (hasilEdit != null) {
+            controller.ubahPutusan(barisModel, hasilEdit);
+            tampilkanSemua();
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Data putusan berhasil diperbarui."
+            );
+        }
+    }
+
+    private void hapusPutusanTerpilih() {
+        int barisTabel = tabel.getSelectedRow();
+
+        if (barisTabel == -1) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Pilih data yang ingin dihapus terlebih dahulu."
+            );
+            return;
+        }
+
+        int konfirmasi = JOptionPane.showConfirmDialog(
+                this,
+                "Yakin ingin menghapus putusan yang dipilih?",
+                "Konfirmasi Hapus",
+                JOptionPane.YES_NO_OPTION
+        );
+
+        if (konfirmasi != JOptionPane.YES_OPTION) {
+            return;
+        }
+
+        int barisModel = posisiStruktur(barisTabel);
+        controller.hapusPutusan(barisModel);
+        tampilkanSemua();
+
+        JOptionPane.showMessageDialog(
+                this,
+                "Putusan berhasil dihapus."
+        );
+    }
+
+    private void lihatDetailTerpilih() {
+        int barisTabel = tabel.getSelectedRow();
+
+        if (barisTabel == -1) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Pilih data yang ingin dilihat terlebih dahulu."
+            );
+            return;
+        }
+
+        int barisModel = tabel.convertRowIndexToModel(barisTabel);
+        StringBuilder detail = new StringBuilder();
+
+        for (int kolom = 0; kolom < model.getColumnCount(); kolom++) {
+            detail.append(model.getColumnName(kolom))
+                    .append(": ")
+                    .append(model.getValueAt(barisModel, kolom))
+                    .append("\n\n");
+        }
