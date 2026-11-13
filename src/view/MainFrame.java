@@ -1032,3 +1032,104 @@ public class MainFrame extends JFrame {
         inputVonisMax.setText("");
         kriteriaAktif = null;
     }
+    private void resetFilterGabungan() {
+        kosongkanFilter();
+        tampilkanSemua();
+        controller.catatRiwayat("Reset filter");
+    }
+
+    // Agregasi atas data yang sedang tampil (seluruh data atau hasil filter)
+    private void tampilkanAgregasi() {
+        if (controller.jumlahPutusan() == 0) {
+            JOptionPane.showMessageDialog(
+                    this, "Belum ada data. Impor CSV terlebih dahulu.");
+            return;
+        }
+
+        HasilAgregasi hasil = statistikController.hitungAgregasi(sumberTampil);
+
+        String cakupan = kriteriaAktif == null
+                ? "Seluruh data (" + controller.jumlahPutusan() + " putusan)"
+                : "Hasil filter (" + jumlahTampil + " dari "
+                + controller.jumlahPutusan() + " putusan)";
+
+        controller.catatRiwayat(
+                "Agregasi [" + cakupan + "]: " + hasil.getJumlahPerkara()
+                        + " perkara, rata-rata vonis " + hasil.rataRataVonisTeks()
+                        + ", total denda " + hasil.totalDendaTeks()
+        );
+
+        JOptionPane.showMessageDialog(
+                this,
+                buatPanelAgregasi(hasil, cakupan),
+                "Ringkasan Agregasi",
+                JOptionPane.PLAIN_MESSAGE
+        );
+    }
+
+    private JComponent buatPanelAgregasi(HasilAgregasi hasil, String cakupan) {
+        JLabel labelCakupan = new JLabel("Cakupan: " + cakupan);
+        labelCakupan.setFont(font(Font.PLAIN, 12));
+        labelCakupan.setForeground(TEKS_REdup);
+        labelCakupan.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        Chip chipPerkara = new Chip("JUMLAH PERKARA");
+        Chip chipVonis = new Chip("RATA-RATA VONIS");
+        Chip chipDenda = new Chip("TOTAL DENDA");
+        chipPerkara.set(String.valueOf(hasil.getJumlahPerkara()), TEKS);
+        chipVonis.set(hasil.rataRataVonisTeks(), TEKS);
+        chipDenda.set(hasil.totalDendaTeks(), EMAS);
+
+        JPanel barisChip = new JPanel(new GridLayout(1, 3, 10, 0));
+        barisChip.setOpaque(false);
+        barisChip.add(chipPerkara);
+        barisChip.add(chipVonis);
+        barisChip.add(chipDenda);
+        barisChip.setAlignmentX(Component.LEFT_ALIGNMENT);
+        barisChip.setMaximumSize(
+                new Dimension(Integer.MAX_VALUE, barisChip.getPreferredSize().height));
+
+        JLabel judulDistribusi = new JLabel("Distribusi Jenis Narkotika");
+        judulDistribusi.setFont(font(Font.BOLD, 14));
+        judulDistribusi.setForeground(TEKS);
+        judulDistribusi.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        JLabel catatan = new JLabel(
+                "Perkara dengan lebih dari satu zat dihitung pada tiap zat.");
+        catatan.setFont(font(Font.PLAIN, 12));
+        catatan.setForeground(TEKS_REdup);
+        catatan.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        JPanel daftar = new JPanel();
+        daftar.setOpaque(false);
+        daftar.setLayout(new BoxLayout(daftar, BoxLayout.Y_AXIS));
+
+        DynamicArray<HasilAgregasi.Entri> distribusi = hasil.getDistribusi();
+
+        for (int i = 0; i < distribusi.size(); i++) {
+            HasilAgregasi.Entri e = distribusi.get(i);
+            double bagian = hasil.getJumlahPerkara() == 0
+                    ? 0
+                    : (double) e.getJumlah() / hasil.getJumlahPerkara();
+
+            JLabel nama = new JLabel(e.getNama());
+            nama.setFont(font(Font.PLAIN, 13));
+            nama.setForeground(TEKS);
+            nama.setPreferredSize(new Dimension(190, 22));
+
+            JLabel angka = new JLabel(
+                    e.getJumlah() + " putusan  (" + Math.round(bagian * 100) + "%)");
+            angka.setFont(font(Font.BOLD, 12));
+            angka.setForeground(TEKS_REdup);
+            angka.setPreferredSize(new Dimension(130, 22));
+            angka.setHorizontalAlignment(SwingConstants.RIGHT);
+
+            JPanel baris = new JPanel(new BorderLayout(10, 0));
+            baris.setOpaque(false);
+            baris.setBorder(BorderFactory.createEmptyBorder(5, 0, 5, 0));
+            baris.add(nama, BorderLayout.WEST);
+            baris.add(new BatangPersen(bagian), BorderLayout.CENTER);
+            baris.add(angka, BorderLayout.EAST);
+            baris.setMaximumSize(new Dimension(Integer.MAX_VALUE, 34));
+            daftar.add(baris);
+        }
