@@ -1286,3 +1286,91 @@ public class MainFrame extends JFrame {
                 );
                 return null;
             }
+            for (int i = 0; i < controller.jumlahPutusan(); i++) {
+                if (i == posisiYangDiedit) {
+                    continue;
+                }
+
+                Putusan dataLain = controller.ambilPutusan(i);
+
+                if (dataLain.getCaseId().equalsIgnoreCase(caseId)) {
+                    JOptionPane.showMessageDialog(
+                            this,
+                            "Case ID tersebut sudah digunakan."
+                    );
+                    return null;
+                }
+            }
+
+            LocalDate tanggal = nilai[3].isEmpty()
+                    ? null
+                    : LocalDate.parse(nilai[3]);
+
+            double berat = nilai[6].isEmpty()
+                    ? 0
+                    : Double.parseDouble(nilai[6]);
+
+            int tuntutan = nilai[9].isEmpty()
+                    ? 0
+                    : Integer.parseInt(nilai[9]);
+
+            int vonis = nilai[10].isEmpty()
+                    ? 0
+                    : Integer.parseInt(nilai[10]);
+
+            long denda = nilai[11].isEmpty()
+                    ? 0
+                    : Long.parseLong(nilai[11]);
+
+            if (berat < 0 || tuntutan < 0 || vonis < 0 || denda < 0) {
+                JOptionPane.showMessageDialog(
+                        this,
+                        "Berat, tuntutan, vonis, dan denda tidak boleh negatif."
+                );
+                return null;
+            }
+
+            return new Putusan(
+                    caseId,
+                    nomorPerkara,
+                    pengadilan,
+                    tanggal,
+                    nilai[4],
+                    nilai[5],
+                    berat,
+                    nilai[7],
+                    nilai[8],
+                    tuntutan,
+                    vonis,
+                    denda,
+                    nilai[12],
+                    nilai[13],
+                    nilai[14],
+                    nilai[15]
+            );
+
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Berat, tuntutan, vonis, dan denda harus berupa angka."
+            );
+        } catch (DateTimeParseException ex) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Format tanggal salah. Gunakan YYYY-MM-DD, misalnya 2025-08-12."
+            );
+        }
+
+        return null;
+    }
+
+    private void tambahPutusan() {
+        String[] nilai = tampilkanForm(
+                "Tambah Putusan",
+                labelFormPutusan(),
+                null
+        );
+
+        if (nilai == null) {
+            return;
+        }
