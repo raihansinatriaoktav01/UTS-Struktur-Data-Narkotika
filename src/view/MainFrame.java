@@ -703,3 +703,121 @@ public class MainFrame extends JFrame {
             super.paintComponent(g);
         }
     }
+    // Kartu angka kecil pada header
+    private static class Chip extends JPanel {
+        private final JLabel nilai = new JLabel("-");
+
+        Chip(String judul) {
+            setOpaque(false);
+            setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+            setBorder(BorderFactory.createEmptyBorder(8, 16, 8, 16));
+
+            JLabel label = new JLabel(judul);
+            label.setFont(font(Font.BOLD, 10));
+            label.setForeground(TEKS_REdup);
+
+            nilai.setFont(font(Font.BOLD, 18));
+            nilai.setForeground(TEKS);
+
+            add(label);
+            add(Box.createVerticalStrut(2));
+            add(nilai);
+        }
+
+        void set(String teks, Color warna) {
+            nilai.setText(teks);
+            nilai.setForeground(warna);
+        }
+
+        @Override
+        public Dimension getPreferredSize() {
+            Dimension d = super.getPreferredSize();
+            return new Dimension(Math.max(d.width, 118), d.height);
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            Graphics2D g2 = halus(g);
+            g2.setColor(new Color(22, 28, 38));
+            g2.fillRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 12, 12);
+            g2.setColor(GARIS);
+            g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 12, 12);
+            g2.dispose();
+            super.paintComponent(g);
+        }
+    }
+
+    // Panel sidebar yang lebarnya mengikuti viewport
+    private static class PanelSidebar extends JPanel implements Scrollable {
+        @Override
+        public Dimension getPreferredScrollableViewportSize() {
+            return getPreferredSize();
+        }
+
+        @Override
+        public int getScrollableUnitIncrement(Rectangle r, int orientation, int direction) {
+            return 18;
+        }
+
+        @Override
+        public int getScrollableBlockIncrement(Rectangle r, int orientation, int direction) {
+            return 80;
+        }
+
+        @Override
+        public boolean getScrollableTracksViewportWidth() {
+            return true;
+        }
+
+        @Override
+        public boolean getScrollableTracksViewportHeight() {
+            return false;
+        }
+    }
+
+    // Scrollbar tipis tanpa tombol panah
+    private static class ScrollBarModern extends BasicScrollBarUI {
+        @Override
+        protected void configureScrollBarColors() {
+            super.configureScrollBarColors();
+            thumbColor = new Color(78, 91, 112);
+            trackColor = LATAR;
+        }
+
+        @Override
+        protected JButton createDecreaseButton(int orientation) {
+            return tombolKosong();
+        }
+
+        @Override
+        protected JButton createIncreaseButton(int orientation) {
+            return tombolKosong();
+        }
+
+        private JButton tombolKosong() {
+            JButton tombol = new JButton();
+            Dimension nol = new Dimension(0, 0);
+            tombol.setPreferredSize(nol);
+            tombol.setMinimumSize(nol);
+            tombol.setMaximumSize(nol);
+            return tombol;
+        }
+
+        @Override
+        protected void paintTrack(Graphics g, JComponent c, Rectangle r) {
+            g.setColor(trackColor);
+            g.fillRect(r.x, r.y, r.width, r.height);
+        }
+
+        @Override
+        protected void paintThumb(Graphics g, JComponent c, Rectangle r) {
+            if (r.isEmpty() || !scrollbar.isEnabled()) {
+                return;
+            }
+
+            Graphics2D g2 = halus(g);
+            g2.setColor(isThumbRollover() ? lebihTerang(thumbColor, 22) : thumbColor);
+            g2.fillRoundRect(r.x + 2, r.y + 2, r.width - 4, r.height - 4, 8, 8);
+            g2.dispose();
+        }
+    }
