@@ -498,3 +498,79 @@ public class MainFrame extends JFrame {
                 Math.min(255, c.getBlue() + tambah)
         );
     }
+    private static Graphics2D halus(Graphics g) {
+        Graphics2D g2 = (Graphics2D) g.create();
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+                RenderingHints.VALUE_ANTIALIAS_ON);
+        return g2;
+    }
+
+    // Tombol bersudut membulat dengan efek hover dan tekan
+    private static class TombolModern extends JButton {
+        private final Color dasar;
+        private boolean hover = false;
+        private boolean aktif = false;
+
+        TombolModern(String teks, Color dasar) {
+            super(teks);
+            this.dasar = dasar;
+            setForeground(Color.WHITE);
+            setFont(font(Font.BOLD, 12));
+            setFocusPainted(false);
+            setContentAreaFilled(false);
+            setBorderPainted(false);
+            setOpaque(false);
+            setCursor(new Cursor(Cursor.HAND_CURSOR));
+            setBorder(BorderFactory.createEmptyBorder(9, 16, 9, 16));
+
+            addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    hover = true;
+                    repaint();
+                }
+
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    hover = false;
+                    repaint();
+                }
+            });
+        }
+
+        void setAktif(boolean aktif) {
+            this.aktif = aktif;
+            repaint();
+        }
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            Color warna = aktif ? AKSEN : dasar;
+
+            if (getModel().isPressed()) {
+                warna = warna.darker();
+            } else if (hover) {
+                warna = lebihTerang(warna, 14);
+            }
+
+            Graphics2D g2 = halus(g);
+            g2.setColor(warna);
+            g2.fillRoundRect(0, 0, getWidth(), getHeight(), 10, 10);
+            g2.dispose();
+
+            super.paintComponent(g);
+        }
+    }
+
+    // Pilihan ala segmented control (Case ID / Nomor Perkara)
+    private static class PilTogel extends JToggleButton {
+        PilTogel(String teks) {
+            super(teks);
+            setFont(font(Font.BOLD, 12));
+            setFocusPainted(false);
+            setContentAreaFilled(false);
+            setBorderPainted(false);
+            setOpaque(false);
+            setCursor(new Cursor(Cursor.HAND_CURSOR));
+            setBorder(BorderFactory.createEmptyBorder(8, 10, 8, 10));
+        }
