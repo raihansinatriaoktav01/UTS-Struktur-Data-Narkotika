@@ -821,3 +821,101 @@ public class MainFrame extends JFrame {
             g2.dispose();
         }
     }
+    // ================== Logika (tidak berubah) ==================
+
+    private void tampilkanSemua() {
+        model.setRowCount(0);
+
+        // Struktur utama tidak pernah diurutkan; tabel hanya menampilkan
+        // salinan terurut ketika modeUrut aktif.
+        DynamicArray<Putusan> sumber = null;
+
+        if (kriteriaAktif != null) {
+            sumber = filterController.saring(kriteriaAktif);
+        }
+
+        if (modeUrut != 0) {
+            sumber = controller.urutkanBerdasarkanVonis(sumber, modeUrut == 1);
+        }
+
+        sumberTampil = sumber;
+
+        int jumlah = sumber == null
+                ? controller.jumlahPutusan()
+                : sumber.size();
+
+        for (int i = 0; i < jumlah; i++) {
+            Putusan p = sumber == null
+                    ? controller.ambilPutusan(i)
+                    : sumber.get(i);
+
+            model.addRow(new Object[]{
+                    p.getCaseId(),
+                    p.getNomorPerkara(),
+                    p.getPengadilan(),
+                    p.getTanggalPutusan(),
+                    p.getTerdakwaKode(),
+                    p.getJenisNarkotika(),
+                    p.getBeratBarangBuktiGram(),
+                    p.getPasalDakwaan(),
+                    p.getPasalTerbukti(),
+                    p.getTuntutanBulan(),
+                    p.getVonisBulan(),
+                    p.getDendaRupiah(),
+                    p.getBarangBukti(),
+                    p.getKeadaanMemberatkan(),
+                    p.getKeadaanMeringankan(),
+                    p.getSourcePages()
+            });
+        }
+
+        jumlahTampil = jumlah;
+        perbaruiStatus();
+        perbaruiRingkasan();
+    }
+
+    // Mengubah mode urutan tampilan (0 = asli, 1 = naik, 2 = turun)
+    private void aturUrutan(int mode) {
+        modeUrut = mode;
+        perbaruiTombolUrut();
+        tampilkanSemua();
+
+        if (mode == 1) {
+            controller.catatRiwayat("Mengurutkan tampilan berdasarkan vonis (naik)");
+        } else if (mode == 2) {
+            controller.catatRiwayat("Mengurutkan tampilan berdasarkan vonis (turun)");
+        } else {
+            controller.catatRiwayat("Mengembalikan tampilan ke urutan asli");
+        }
+    }
+
+    // Mencari Case ID atau Nomor Perkara di struktur utama dan melaporkan langkah
+    private void cariPutusan() {
+        String kunci = inputCari.getText().trim();
+
+        if (kunci.isEmpty()) {
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Masukkan Case ID atau Nomor Perkara yang ingin dicari."
+            );
+            return;
+        }
+
+        boolean lewatCaseId = pilihCaseId.isSelected();
+        String jenis = lewatCaseId ? "Case ID" : "Nomor Perkara";
+
+        HasilCari hasil = controller.cari(kunci, lewatCaseId);
+
+        if (!hasil.isDitemukan()) {
+            labelHasilCari.setText(
+                    "Tidak ditemukan  |  langkah: " + hasil.getLangkah()
+                            + " dari " + controller.jumlahPutusan()
+            );
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    jenis + " \"" + kunci + "\" tidak ditemukan.\n"
+                            + "Jumlah langkah pencarian: " + hasil.getLangkah()
+            );
+            return;
+        }
