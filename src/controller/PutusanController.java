@@ -126,3 +126,102 @@ public class PutusanController {
 
         return null;
     }
+
+    public HasilCari cari(String kunci, boolean berdasarkanCaseId) {
+        String target = kunci == null ? "" : kunci.trim();
+        String jenis = berdasarkanCaseId ? "Case ID" : "Nomor Perkara";
+        int langkah = 0;
+
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            langkah++;
+
+            Putusan p = daftarPutusan.get(i);
+            String nilai = berdasarkanCaseId
+                    ? p.getCaseId()
+                    : p.getNomorPerkara();
+
+            if (nilai != null && nilai.equalsIgnoreCase(target)) {
+                riwayat.add("Mencari " + jenis + ": " + target
+                        + " (ditemukan, " + langkah + " langkah)");
+                return new HasilCari(true, i, langkah, p);
+            }
+        }
+
+        riwayat.add("Mencari " + jenis + ": " + target
+                + " (tidak ditemukan, " + langkah + " langkah)");
+        return new HasilCari(false, -1, langkah, null);
+    }
+
+    public int cariPosisiCaseId(String caseId) {
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            if (daftarPutusan.get(i).getCaseId().equalsIgnoreCase(caseId)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public DynamicArray<Putusan> urutkanBerdasarkanVonis(boolean menaik) {
+        return urutkanBerdasarkanVonis(null, menaik);
+    }
+
+    public DynamicArray<Putusan> urutkanBerdasarkanVonis(
+            DynamicArray<Putusan> sumber, boolean menaik) {
+
+        DynamicArray<Putusan> asal = sumber == null ? daftarPutusan : sumber;
+        DynamicArray<Putusan> salinan = new DynamicArray<>();
+
+        for (int i = 0; i < asal.size(); i++) {
+            salinan.add(asal.get(i));
+        }
+
+        int langkah = 0;
+
+        for (int i = 1; i < salinan.size(); i++) {
+            Putusan kunci = salinan.get(i);
+            int j = i - 1;
+
+            while (j >= 0) {
+                langkah++;
+
+                Putusan lawan = salinan.get(j);
+                boolean harusGeser = menaik
+                        ? lawan.getVonisBulan() > kunci.getVonisBulan()
+                        : lawan.getVonisBulan() < kunci.getVonisBulan();
+
+                if (!harusGeser) {
+                    break;
+                }
+
+                salinan.set(j + 1, lawan);
+                j--;
+            }
+
+            salinan.set(j + 1, kunci);
+        }
+
+        langkahUrutTerakhir = langkah;
+        return salinan;
+    }
+
+    public int getLangkahUrutTerakhir() {
+        return langkahUrutTerakhir;
+    }
+
+    public void catatRiwayat(String aktivitas) {
+        riwayat.add(aktivitas);
+    }
+
+    public int jumlahPutusan() {
+        return daftarPutusan.size();
+    }
+
+    public void tampilkanRiwayat() {
+        riwayat.display();
+    }
+
+    public boolean validasiStruktur() {
+        return daftarPutusan.validateInvariant()
+                && riwayat.validateInvariant();
+    }
+}
