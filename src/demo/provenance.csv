@@ -1,0 +1,752 @@
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+P001,nomorPerkara,181/Pid.Sus/2025/PN Gns,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,1,Risky,Raihan,verified
+P001,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,1,Risky,Raihan,verified
+P001,tanggalPutusan,2025-08-12,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,24,Risky,Raihan,verified
+P001,terdakwaKode,YB,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,1,Risky,Raihan,verified
+P001,jenisNarkotika,"Metamfetamina (Sabu), MDMA (Ekstasi)",putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,5,Risky,Raihan,verified
+P001,beratBarangBuktiGram,14.916,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,5,Risky,Raihan,verified
+P001,pasalDakwaan,Pasal 114 Ayat (2) UU No. 35 Tahun 2009,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,2,Risky,Raihan,verified
+P001,pasalTerbukti,Pasal 114 Ayat (2) UU No. 35 Tahun 2009,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,23,Risky,Raihan,verified
+P001,tuntutanBulan,102,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,2,Risky,Raihan,verified
+P001,vonisBulan,90,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,24,Risky,Raihan,verified
+P001,dendaRupiah,1000000000,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,24,Risky,Raihan,verified
+P001,barangBukti,1 bungkus plastik klip sedang sabu; 32 bungkus plastik klip shabu; 1 bungkus plastik klip 5 tablet ekstasi minion; 12 bendel plastik klip; 1 dompet merah muda; 1 HP Oppo A57; 1 sekop sedotan; uang tunai Rp330.000,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,23,Risky,Raihan,verified
+P001,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,23,Risky,Raihan,verified
+P001,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah menjalani hukuman,putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf,23,Risky,Raihan,verified
+P001,sourcePages,"halaman 1, 2, 5, 19, 23, 24",putusan_181_pid.sus_2025_pn_gns_20261105130436.pdf," 1, 2, 5, 19, 23, 24",Risky,Raihan,verified
+P002,nomorPerkara,196/Pid.Sus/2025/PN Gns,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,1,Risky,Raihan,verified
+P002,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,1,Risky,Raihan,verified
+P002,tanggalPutusan,2025-08-04,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,32,Risky,Raihan,verified
+P002,terdakwaKode,JJ,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,1,Risky,Raihan,verified
+P002,jenisNarkotika,"Metamfetamina (Sabu), MDMA (Ekstasi)",putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,6,Risky,Raihan,verified
+P002,beratBarangBuktiGram,8.63,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,6,Risky,Raihan,verified
+P002,pasalDakwaan,Pasal 114 Ayat (2) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009 (Alternatif Pertama),putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,2,Risky,Raihan,verified
+P002,pasalTerbukti,Pasal 114 Ayat (2) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,32,Risky,Raihan,verified
+P002,tuntutanBulan,87,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,2,Risky,Raihan,verified
+P002,vonisBulan,75,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,32,Risky,Raihan,verified
+P002,dendaRupiah,1000000000,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,32,Risky,Raihan,verified
+P002,barangBukti,"1 bungkus plastik klip sedang shabu (neto 7,15 g); 3 plastik klip kecil shabu (neto 1,48 g); 1 korek api gas; 1 kotak rokok Dji Sam Soe; 1 kotak permen Xylitol; 1 kaca pirek; 1 plastik klip kosong; 1 HP Oppo CPH2185",putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,19,Risky,Raihan,verified
+P002,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,31,Risky,Raihan,verified
+P002,keadaanMeringankan,Terdakwa sedang menderita penyakit jantung dan masih berobat; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah menjalani hukuman,putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf,31,Risky,Raihan,verified
+P002,sourcePages,"halaman 1, 2, 6, 19, 31, 32",putusan_196_pid.sus_2025_pn_gns_20261105130858.pdf," 1, 2, 6, 19, 31, 32",Risky,Raihan,verified
+P003,nomorPerkara,201/Pid.Sus/2025/PN Gns,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,1,Risky,Raihan,verified
+P003,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,1,Risky,Raihan,verified
+P003,tanggalPutusan,2025-08-19,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,22,Risky,Raihan,verified
+P003,terdakwaKode,AG-T,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,1,Risky,Raihan,verified
+P003,jenisNarkotika,Metamfetamina (Sabu),putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,7,Risky,Raihan,verified
+P003,beratBarangBuktiGram,0.004,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,7,Risky,Raihan,verified
+P003,pasalDakwaan,Pasal 127 Ayat (1) Huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,3,Risky,Raihan,verified
+P003,pasalTerbukti,Pasal 127 Ayat (1) Huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) ke-1 KUHP,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,20,Risky,Raihan,verified
+P003,tuntutanBulan,30,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,3,Risky,Raihan,verified
+P003,vonisBulan,28,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,21,Risky,Raihan,verified
+P003,dendaRupiah,0,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,22,Risky,Raihan,verified
+P003,barangBukti,"1 bungkus klip bening sabu sisa pakai (neto 0,004 g); 1 kaca pirek; 1 alat hisap sabu/bong; 1 sumbu api jarum; 1 korek api gas",putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,20,Risky,Raihan,verified
+P003,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk memberantas penyalahgunaan Narkotika; Perbuatan Para Terdakwa dapat merusak dirinya sendiri,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,21,Risky,Raihan,verified
+P003,keadaanMeringankan,Para Terdakwa berterus terang dan mengakui segala perbuatannya; Para Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi; Para Terdakwa belum pernah menjalani hukuman,putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,21,Risky,Raihan,verified
+P003,sourcePages,"halaman 1, 3, 7, 20, 21, 22",putusan_201_pid.sus_2025_pn_gns_20261105130519.pdf,"1, 3, 7, 20, 21, 22",Risky,Raihan,verified
+P004,nomorPerkara,216/Pid.Sus/2025/PN Gns,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,1,Risky,Raihan,verified
+P004,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,1,Risky,Raihan,verified
+P004,tanggalPutusan,2025-08-27,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,27,Risky,Raihan,verified
+P004,terdakwaKode,RY,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,1,Risky,Raihan,verified
+P004,jenisNarkotika,"Metamfetamina (Sabu), MDMA (Ekstasi)",putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,6,Risky,Raihan,verified
+P004,beratBarangBuktiGram,15.144,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,6,Risky,Raihan,verified
+P004,pasalDakwaan,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,2,Risky,Raihan,verified
+P004,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,25,Risky,Raihan,verified
+P004,tuntutanBulan,108,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,2,Risky,Raihan,verified
+P004,vonisBulan,72,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,26,Risky,Raihan,verified
+P004,dendaRupiah,1000000000,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,26,Risky,Raihan,verified
+P004,barangBukti,"2 bungkus plastik klip berisi 40 pil ekstasi RR (neto 15,025 g); 1 bungkus plastik klip sabu (neto 0,119 g); 1 timbangan digital; 1 bendel plastik klip; 1 tas warna cream",putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,15,Risky,Raihan,verified
+P004,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat; Terdakwa sudah pernah menjalani hukuman dalam perkara Narkotika,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,26,Risky,Raihan,verified
+P004,keadaanMeringankan,Terdakwa bersikap sopan sehingga memperlancar jalannya proses persidangan; Terdakwa mengakui dan menyesali perbuatannya,putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,26,Risky,Raihan,verified
+P004,sourcePages,"halaman 1, 2, 6, 15, 25, 26, 27",putusan_216_pid.sus_2025_pn_gns_20261105125616.pdf,"1, 2, 6, 15, 25, 26, 27",Risky,Raihan,verified
+P005,nomorPerkara,217/Pid.Sus/2025/PN Gns,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,2,Risky,Raihan,verified
+P005,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,2,Risky,Raihan,verified
+P005,tanggalPutusan,2025-08-13,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,19,Risky,Raihan,verified
+P005,terdakwaKode,GG,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,3,Risky,Raihan,verified
+P005,jenisNarkotika,Metamfetamina (Sabu),putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,5,Risky,Raihan,verified
+P005,beratBarangBuktiGram,0.349,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,5,Risky,Raihan,verified
+P005,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,2,Risky,Raihan,verified
+P005,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,17,Risky,Raihan,verified
+P005,tuntutanBulan,72,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,2,Risky,Raihan,verified
+P005,vonisBulan,66,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,18,Risky,Raihan,verified
+P005,dendaRupiah,800000000,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,18,Risky,Raihan,verified
+P005,barangBukti,"4 bungkus plastik klip berisi kristal putih sabu (neto 0,349 g); 1 bungkus kotak rokok merk rastel",putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,11,Risky,Raihan,verified
+P005,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,18,Risky,Raihan,verified
+P005,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,18,Risky,Raihan,verified
+P005,sourcePages,"halaman 2, 3, 5, 11, 17, 18, 19",putusan_217_pid.sus_2025_pn_gns_20261105130459.pdf,"2, 3, 5, 11, 17, 18, 19",Risky,Raihan,verified
+P006,nomorPerkara,218/Pid.Sus/2025/PN Gns,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,1,Risky,Raihan,verified
+P006,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,1,Risky,Raihan,verified
+P006,tanggalPutusan,2025-09-03,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,15,Risky,Raihan,verified
+P006,terdakwaKode,AE,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,1,Risky,Raihan,verified
+P006,jenisNarkotika,Metamfetamina (Sabu),putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,4,Risky,Raihan,verified
+P006,beratBarangBuktiGram,0.010,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,4,Risky,Raihan,verified
+P006,pasalDakwaan,Pasal 127 Ayat (1) Huruf a UU No. 35 Tahun 2009,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,2,Risky,Raihan,verified
+P006,pasalTerbukti,Pasal 127 Ayat (1) Huruf a UU No. 35 Tahun 2009,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,15,Risky,Raihan,verified
+P006,tuntutanBulan,15,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,2,Risky,Raihan,verified
+P006,vonisBulan,12,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,15,Risky,Raihan,verified
+P006,dendaRupiah,0,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,15,Risky,Raihan,verified
+P006,barangBukti,"1 pipa kaca pirek berisi kristal putih sabu sisa pakai (neto 0,010 g); 1 alat hisap sabu/bong dari gelas air mineral merk tripanca",putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,9,Risky,Raihan,verified
+P006,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa dapat merusak dirinya sendiri,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,14,Risky,Raihan,verified
+P006,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa menyesali perbuatannya dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,14,Risky,Raihan,verified
+P006,sourcePages,"halaman 1, 2, 4, 9, 14, 15",putusan_218_pid.sus_2025_pn_gns_20261105125639.pdf,"1, 2, 4, 9, 14, 15",Risky,Raihan,verified
+P007,nomorPerkara,221/Pid.Sus/2025/PN Gns,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,1,Risky,Raihan,verified
+P007,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,1,Risky,Raihan,verified
+P007,tanggalPutusan,2025-08-20,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,26,Risky,Raihan,verified
+P007,terdakwaKode,PO-MG,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,1,Risky,Raihan,verified
+P007,jenisNarkotika,Metamfetamina (Sabu),putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,6,Risky,Raihan,verified
+P007,beratBarangBuktiGram,5.490,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,6,Risky,Raihan,verified
+P007,pasalDakwaan,Pasal 112 Ayat (2) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,3,Risky,Raihan,verified
+P007,pasalTerbukti,Pasal 112 Ayat (2) Jo Pasal 132 Ayat (1) UU No. 35 Tahun 2009,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,26,Risky,Raihan,verified
+P007,tuntutanBulan,96,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,3,Risky,Raihan,verified
+P007,vonisBulan,60,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,26,Risky,Raihan,verified
+P007,dendaRupiah,1000000000,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,26,Risky,Raihan,verified
+P007,barangBukti,"1 bungkus plastik klip sedang berisi kristal putih sabu (neto 5,490 g)",putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,15,Risky,Raihan,verified
+P007,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk memberantas penyalahgunaan Narkotika; Perbuatan Para Terdakwa yang menggunakan narkotika jenis shabu-shabu selain dapat merugikan diri sendiri juga bisa merugikan orang lain,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,25,Risky,Raihan,verified
+P007,keadaanMeringankan,Para Terdakwa berterus terang dan mengakui segala perbuatannya; Para Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi; Para Terdakwa belum pernah dihukum,putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,25,Risky,Raihan,verified
+P007,sourcePages,"halaman 1, 3, 6, 15, 25, 26",putusan_221_pid.sus_2025_pn_gns_20261105130544.pdf,"1, 3, 6, 15, 25, 26",Risky,Raihan,verified
+P008,nomorPerkara,223/Pid.Sus/2025/PN Gns,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,2,Risky,Raihan,verified
+P008,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,2,Risky,Raihan,verified
+P008,tanggalPutusan,2025-09-16,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,18,Risky,Raihan,verified
+P008,terdakwaKode,GT,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,1,Risky,Raihan,verified
+P008,jenisNarkotika,Metamfetamina (Sabu),putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,4,Risky,Raihan,verified
+P008,beratBarangBuktiGram,0.016,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,4,Risky,Raihan,verified
+P008,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,2,Risky,Raihan,verified
+P008,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,17,Risky,Raihan,verified
+P008,tuntutanBulan,18,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,2,Risky,Raihan,verified
+P008,vonisBulan,12,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,17,Risky,Raihan,verified
+P008,dendaRupiah,0,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,17,Risky,Raihan,verified
+P008,barangBukti,"1 pipa kaca/pirek berisi kristal putih sabu sisa pakai (neto 0,016 g); 1 alat hisap sabu (bong); 1 jarum sumbu api; 1 korek api gas",putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,10,Risky,Raihan,verified
+P008,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa dapat merusak dirinya sendiri,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,16,Risky,Raihan,verified
+P008,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa menyesali perbuatannya dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,16,Risky,Raihan,verified
+P008,sourcePages,"halaman 1, 2, 4, 10, 16, 17, 18",putusan_223_pid.sus_2025_pn_gns_20261105125710.pdf,"1, 2, 4, 10, 16, 17, 18",Risky,Raihan,verified
+P009,nomorPerkara,226/Pid.Sus/2025/PN Gns,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,2,Risky,Raihan,verified
+P009,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,2,Risky,Raihan,verified
+P009,tanggalPutusan,2025-09-09,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,19,Risky,Raihan,verified
+P009,terdakwaKode,TTJ,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,1,Risky,Raihan,verified
+P009,jenisNarkotika,Metamfetamina (Sabu),putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,4,Risky,Raihan,verified
+P009,beratBarangBuktiGram,0.715,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,4,Risky,Raihan,verified
+P009,pasalDakwaan,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,2,Risky,Raihan,verified
+P009,pasalTerbukti,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,19,Risky,Raihan,verified
+P009,tuntutanBulan,120,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,2,Risky,Raihan,verified
+P009,vonisBulan,120,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,19,Risky,Raihan,verified
+P009,dendaRupiah,1000000000,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,19,Risky,Raihan,verified
+P009,barangBukti,"6 bungkus plastik bening berisi kristal putih sabu (neto 0,715 g); 1 timbangan digital; 4 bundle plastik klip; 1 kotak bening; 1 skop pipet; 1 lembar tisu berisi kristal sabu",putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,10,Risky,Raihan,verified
+P009,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa dapat merusak dirinya sendiri; Terdakwa sudah pernah menjalani hukuman selama 15 tahun dalam perkara yang sama,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,18,Risky,Raihan,verified
+P009,keadaanMeringankan,Terdakwa mengakui perbuatannya sehingga memperlancar jalannya proses persidangan; Terdakwa menyesali perbuatannya,putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,18,Risky,Raihan,verified
+P009,sourcePages,"halaman 1, 2, 4, 10, 18, 19",putusan_226_pid.sus_2025_pn_gns_20261105125601.pdf,"1, 2, 4, 10, 18, 19",Risky,Raihan,verified
+P010,nomorPerkara,227/Pid.Sus/2025/PN Gns,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,1,Risky,Raihan,verified
+P010,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,1,Risky,Raihan,verified
+P010,tanggalPutusan,2025-09-16,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,20,Risky,Raihan,verified
+P010,terdakwaKode,AC,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,1,Risky,Raihan,verified
+P010,jenisNarkotika,"Metamfetamina (Sabu), MDMA (Ekstasi)",putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,5,Risky,Raihan,verified
+P010,beratBarangBuktiGram,0.892,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,5,Risky,Raihan,verified
+P010,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,2,Risky,Raihan,verified
+P010,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,19,Risky,Raihan,verified
+P010,tuntutanBulan,72,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,2,Risky,Raihan,verified
+P010,vonisBulan,60,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,19,Risky,Raihan,verified
+P010,dendaRupiah,1000000000,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,19,Risky,Raihan,verified
+P010,barangBukti,"6 bungkus plastik klip sabu (sisa 0,465 g); 1 tablet ekstasi merah muda (sisa 0,251 g); 1 pecahan tablet ekstasi; 1 skop pipet; 1 kotak putih",putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,12,Risky,Raihan,verified
+P010,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,18,Risky,Raihan,verified
+P010,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga,putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,18,Risky,Raihan,verified
+P010,sourcePages,"halaman 1, 2, 5, 12, 18, 19, 20",putusan_227_pid.sus_2025_pn_gns_20261105125840.pdf,"1, 2, 5, 12, 18, 19, 20",Risky,Raihan,verified
+P011,nomorPerkara,228/Pid.Sus/2025/PN Gns,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,1,Risky,Raihan,verified
+P011,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,1,Risky,Raihan,verified
+P011,tanggalPutusan,2025-09-09,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,20,Risky,Raihan,verified
+P011,terdakwaKode,SE,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,1,Risky,Raihan,verified
+P011,jenisNarkotika,Metamfetamina (Sabu),putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,5,Risky,Raihan,verified
+P011,beratBarangBuktiGram,0.092,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,5,Risky,Raihan,verified
+P011,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,2,Risky,Raihan,verified
+P011,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,19,Risky,Raihan,verified
+P011,tuntutanBulan,72,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,2,Risky,Raihan,verified
+P011,vonisBulan,60,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,19,Risky,Raihan,verified
+P011,dendaRupiah,1000000000,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,19,Risky,Raihan,verified
+P011,barangBukti,"1 dompet kecil merah; 5 paket shabu (neto 0,092 g); 1 alat hisap shabu; 2 korek api; 1 pirek; 1 sumbu kertas rokok",putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,12,Risky,Raihan,verified
+P011,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,18,Risky,Raihan,verified
+P011,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga,putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,18,Risky,Raihan,verified
+P011,sourcePages,"halaman 1, 2, 5, 12, 18, 19, 20",putusan_228_pid.sus_2025_pn_gns_20261105125500.pdf,"1, 2, 5, 12, 18, 19, 20",Risky,Raihan,verified
+P012,nomorPerkara,229/Pid.Sus/2025/PN Gns,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,1,Risky,Raihan,verified
+P012,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,1,Risky,Raihan,verified
+P012,tanggalPutusan,2025-09-16,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,22,Risky,Raihan,verified
+P012,terdakwaKode,KN-JO,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,1,Risky,Raihan,verified
+P012,jenisNarkotika,Metamfetamina (Sabu),putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,5,Risky,Raihan,verified
+P012,beratBarangBuktiGram,0.092,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,5,Risky,Raihan,verified
+P012,pasalDakwaan,Pasal 127 Ayat (1) Huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,2,Risky,Raihan,verified
+P012,pasalTerbukti,Pasal 127 Ayat (1) Huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) ke-1 KUHP,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,21,Risky,Raihan,verified
+P012,tuntutanBulan,42,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,2,Risky,Raihan,verified
+P012,vonisBulan,36,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,21,Risky,Raihan,verified
+P012,dendaRupiah,0,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,21,Risky,Raihan,verified
+P012,barangBukti,"1 dompet kecil merah; 5 paket shabu (neto 0,092 g); 1 alat hisap shabu; 2 korek api; 1 pirek; 1 sumbu kertas rokok",putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,13,Risky,Raihan,verified
+P012,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk memberantas penyalahgunaan Narkotika; Perbuatan Para Terdakwa dapat merusak dirinya sendiri; Terdakwa Muhammad Murni Bin St. Muhammad sudah pernah menjalani hukuman,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,20,Risky,Raihan,verified
+P012,keadaanMeringankan,Para Terdakwa berterus terang dan mengakui segala perbuatannya; Para Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi; Terdakwa Riswanto Bin Abdul Gani belum pernah menjalani hukuman,putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,20,Risky,Raihan,verified
+P012,sourcePages,"halaman 1, 2, 5, 13, 20, 21, 22",putusan_229_pid.sus_2025_pn_gns_20261105130054.pdf,"1, 2, 5, 13, 20, 21, 22",Risky,Raihan,verified
+P013,nomorPerkara,230/Pid.Sus/2025/PN Gns,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,1,Risky,Raihan,verified
+P013,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,1,Risky,Raihan,verified
+P013,tanggalPutusan,2025-09-16,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,18,Risky,Raihan,verified
+P013,terdakwaKode,ADD,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,1,Risky,Raihan,verified
+P013,jenisNarkotika,Metamfetamina (Sabu),putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,4,Risky,Raihan,verified
+P013,beratBarangBuktiGram,0.791,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,4,Risky,Raihan,verified
+P013,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,2,Risky,Raihan,verified
+P013,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,17,Risky,Raihan,verified
+P013,tuntutanBulan,72,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,2,Risky,Raihan,verified
+P013,vonisBulan,62,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,17,Risky,Raihan,verified
+P013,dendaRupiah,1000000000,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,17,Risky,Raihan,verified
+P013,barangBukti,"12 bungkus plastik klip sabu (sisa 0,735 g); 1 wadah hitam; 2 sekop pipet; 1 timbangan digital",putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,11,Risky,Raihan,verified
+P013,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,16,Risky,Raihan,verified
+P013,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga,putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,16,Risky,Raihan,verified
+P013,sourcePages,"halaman 1, 2, 4, 11, 16, 17, 18",putusan_230_pid.sus_2025_pn_gns_20261105130136.pdf,1,Risky,Raihan,verified
+P014,nomorPerkara,231/Pid.Sus/2025/PN Gns,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,1,Risky,Raihan,verified
+P014,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,1,Risky,Raihan,verified
+P014,tanggalPutusan,2025-09-16,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,19,Risky,Raihan,verified
+P014,terdakwaKode,HS,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,1,Risky,Raihan,verified
+P014,jenisNarkotika,Metamfetamina (Sabu),putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,4,Risky,Raihan,verified
+P014,beratBarangBuktiGram,0.063,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,4,Risky,Raihan,verified
+P014,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,2,Risky,Raihan,verified
+P014,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,18,Risky,Raihan,verified
+P014,tuntutanBulan,72,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,2,Risky,Raihan,verified
+P014,vonisBulan,60,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,18,Risky,Raihan,verified
+P014,dendaRupiah,1000000000,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,18,Risky,Raihan,verified
+P014,barangBukti,"1 bungkus plastik klip sabu (neto 0,063 g); 2 alat hisap sabu/bong; 1 skop pipet; 2 bundle plastik klip; 2 pipa kaca/pirek; 1 timbangan digital; 1 kotak rokok bull; uang tunai Rp1.365.000",putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,11,Risky,Raihan,verified
+P014,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,18,Risky,Raihan,verified
+P014,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah dihukum,putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,18,Risky,Raihan,verified
+P014,sourcePages,"halaman 1, 2, 4, 11, 18, 19",putusan_231_pid.sus_2025_pn_gns_20261105130121.pdf,"1, 2, 4, 11, 18, 19",Risky,Raihan,verified
+P015,nomorPerkara,234/Pid.Sus/2025/PN Gns,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,1,Risky,Raihan,verified
+P015,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,1,Risky,Raihan,verified
+P015,tanggalPutusan,2025-09-16,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,17,Risky,Raihan,verified
+P015,terdakwaKode,D,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,1,Risky,Raihan,verified
+P015,jenisNarkotika,(Ganja),putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,4,Risky,Raihan,verified
+P015,beratBarangBuktiGram,27.57,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,4,Risky,Raihan,verified
+P015,pasalDakwaan,Pasal 111 Ayat (1) UU No. 35 Tahun 2009,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,2,Risky,Raihan,verified
+P015,pasalTerbukti,Pasal 111 Ayat (1) UU No. 35 Tahun 2009,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,16,Risky,Raihan,verified
+P015,tuntutanBulan,66,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,2,Risky,Raihan,verified
+P015,vonisBulan,51,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,16,Risky,Raihan,verified
+P015,dendaRupiah,1000000000,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,16,Risky,Raihan,verified
+P015,barangBukti,"14 bungkus kertas coklat berisi daun/batang kering ganja (sisa 26,82 g); 1 plastik hitam; 1 sepeda motor Honda Beat hitam",putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,10,Risky,Raihan,verified
+P015,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,16,Risky,Raihan,verified
+P015,keadaanMeringankan,Terdakwa bersikap sopan sehingga memperlancar jalannya proses persidangan; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah menjalani hukuman,putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,16,Risky,Raihan,verified
+P015,sourcePages,"halaman 1, 2, 4, 10, 16, 17",putusan_234_pid.sus_2025_pn_gns_20261105130820.pdf,"1, 2, 4, 10, 16, 17",Risky,Raihan,verified
+P016,nomorPerkara,236/Pid.Sus/2025/PN Gns,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,1,Risky,Raihan,verified
+P016,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,1,Risky,Raihan,verified
+P016,tanggalPutusan,2025-09-09,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,16,Risky,Raihan,verified
+P016,terdakwaKode,KIR,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,1,Risky,Raihan,verified
+P016,jenisNarkotika,Metamfetamina (Sabu),putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,4,Risky,Raihan,verified
+P016,beratBarangBuktiGram,0.061,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,4,Risky,Raihan,verified
+P016,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,2,Risky,Raihan,verified
+P016,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,15,Risky,Raihan,verified
+P016,tuntutanBulan,66,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,2,Risky,Raihan,verified
+P016,vonisBulan,54,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,15,Risky,Raihan,verified
+P016,dendaRupiah,1000000000,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,15,Risky,Raihan,verified
+P016,barangBukti,"2 bungkus plastik klip sabu (neto 0,061 g)",putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,9,Risky,Raihan,verified
+P016,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,15,Risky,Raihan,verified
+P016,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,15,Risky,Raihan,verified
+P016,sourcePages,"halaman 1, 2, 4, 9, 15, 16",putusan_236_pid.sus_2025_pn_gns_20261105125535.pdf,"1, 2, 4, 9, 15, 16",Risky,Raihan,verified
+P017,nomorPerkara,224/Pid.Sus/2025/PN Gns,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,1,Risky,Raihan,verified
+P017,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,1,Risky,Raihan,verified
+P017,tanggalPutusan,2025-09-22,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,21,Risky,Raihan,verified
+P017,terdakwaKode,JO,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,1,Risky,Raihan,verified
+P017,jenisNarkotika,Metamfetamina (Sabu),putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,4,Risky,Raihan,verified
+P017,beratBarangBuktiGram,0.715,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,4,Risky,Raihan,verified
+P017,pasalDakwaan,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,2,Risky,Raihan,verified
+P017,pasalTerbukti,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,20,Risky,Raihan,verified
+P017,tuntutanBulan,120,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,2,Risky,Raihan,verified
+P017,vonisBulan,108,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,20,Risky,Raihan,verified
+P017,dendaRupiah,1000000000,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,20,Risky,Raihan,verified
+P017,barangBukti,"6 bungkus plastik bening shabu (neto 0,715 g); 1 timbangan digital; 4 bundle plastik klip; 1 kotak bening; 1 skop pipet; 1 lembar tisu berisi sabu",putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,11,Risky,Raihan,verified
+P017,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa dapat merusak dirinya sendiri; Terdakwa sudah pernah menjalani hukuman selama 15 tahun dalam perkara yang sama,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,20,Risky,Raihan,verified
+P017,keadaanMeringankan,Terdakwa mengakui perbuatannya sehingga memperlancar jalannya proses persidangan; Terdakwa menyesali perbuatannya,putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,20,Risky,Raihan,verified
+P017,sourcePages,"halaman 1, 2, 4, 11, 20, 21",putusan_244_pid.sus_2025_pn_gns_20261105130744.pdf,"1, 2, 4, 11, 20, 21",Risky,Raihan,verified
+P018,nomorPerkara,245/Pid.Sus/2025/PN Gns,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,1,Risky,Raihan,verified
+P018,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,1,Risky,Raihan,verified
+P018,tanggalPutusan,2025-09-22,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,22,Risky,Raihan,verified
+P018,terdakwaKode,AAE-CV,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,1,Risky,Raihan,verified
+P018,jenisNarkotika,Metamfetamina (Sabu),putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,5,Risky,Raihan,verified
+P018,beratBarangBuktiGram,0.085,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,5,Risky,Raihan,verified
+P018,pasalDakwaan,Pasal 112 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,2,Risky,Raihan,verified
+P018,pasalTerbukti,Pasal 112 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,21,Risky,Raihan,verified
+P018,tuntutanBulan,78,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,3,Risky,Raihan,verified
+P018,vonisBulan,78,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,21,Risky,Raihan,verified
+P018,dendaRupiah,800000000,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,21,Risky,Raihan,verified
+P018,barangBukti,"1 bungkus plastik klip bening berisi sabu (neto 0,085 g); 1 unit sepeda motor Tajima body Honda Revo hitam",putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,13,Risky,Raihan,verified
+P018,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk memberantas penyalahgunaan Narkotika; Perbuatan Para Terdakwa yang menggunakan narkotika jenis shabu-shabu selain dapat merugikan diri sendiri juga bisa merugikan orang lain,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,20,Risky,Raihan,verified
+P018,keadaanMeringankan,Para Terdakwa berterus terang dan mengakui segala perbuatannya; Para Terdakwa menyesali perbuatannya; Para Terdakwa berjanji tidak akan mengulanginya lagi; Para Terdakwa belum pernah dihukum,putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,20,Risky,Raihan,verified
+P018,sourcePages,"halaman 1, 2, 5, 13, 20, 21, 22",putusan_245_pid.sus_2025_pn_gns_20261105130726.pdf,"1, 2, 5, 13, 20, 21, 22",Risky,Raihan,verified
+P019,nomorPerkara,255/Pid.Sus/2025/PN Gns,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,1,Risky,Raihan,verified
+P019,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,1,Risky,Raihan,verified
+P019,tanggalPutusan,2025-10-15,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,20,Risky,Raihan,verified
+P019,terdakwaKode,BH,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,1,Risky,Raihan,verified
+P019,jenisNarkotika,Metamfetamina (Sabu),putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,5,Risky,Raihan,verified
+P019,beratBarangBuktiGram,18.140,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,5,Risky,Raihan,verified
+P019,pasalDakwaan,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,2,Risky,Raihan,verified
+P019,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,19,Risky,Raihan,verified
+P019,tuntutanBulan,108,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,2,Risky,Raihan,verified
+P019,vonisBulan,108,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,20,Risky,Raihan,verified
+P019,dendaRupiah,1000000000,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,20,Risky,Raihan,verified
+P019,barangBukti,"3 bungkus plastik klip bening berisi sabu (neto akhir 18,075 g); 1 bundel plastik klip bening",putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,10,Risky,Raihan,verified
+P019,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program Pemerintah dalam memberantas penyalahgunaan narkotika; Terdakwa berbelit-belit dalam memberikan keterangan di persidangan,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,18,Risky,Raihan,verified
+P019,keadaanMeringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulangi perbuatannya,putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,18,Risky,Raihan,verified
+P019,sourcePages,"halaman 1, 2, 5, 10, 18, 19, 20",putusan_255_pid.sus_2025_pn_gns_20261105125119.pdf,"1, 2, 5, 10, 18, 19, 20",Risky,Raihan,verified
+P020,nomorPerkara,256/Pid.Sus/2025/PN Gns,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,1,Risky,Raihan,verified
+P020,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,1,Risky,Raihan,verified
+P020,tanggalPutusan,2025-09-25,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,24,Risky,Raihan,verified
+P020,terdakwaKode,GF,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,1,Risky,Raihan,verified
+P020,jenisNarkotika,Metamfetamina (Sabu),putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,4,Risky,Raihan,verified
+P020,beratBarangBuktiGram,0.154,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,4,Risky,Raihan,verified
+P020,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,2,Risky,Raihan,verified
+P020,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,23,Risky,Raihan,verified
+P020,tuntutanBulan,84,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,2,Risky,Raihan,verified
+P020,vonisBulan,78,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,23,Risky,Raihan,verified
+P020,dendaRupiah,1000000000,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,23,Risky,Raihan,verified
+P020,barangBukti,"3 bungkus plastik bening berisi kristal putih sabu (neto sisa 0,124 g); 1 bungkus plastik klip bening",putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,12,Risky,Raihan,verified
+P020,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan peredaran gelap Narkotika,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,22,Risky,Raihan,verified
+P020,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga; Terdakwa belum pernah dihukum pidana,putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,22,Risky,Raihan,verified
+P020,sourcePages,"halaman 1, 2, 4, 12, 22, 23, 24",putusan_256_pid.sus_2025_pn_gns_20261105130649.pdf,"1, 2, 4, 12, 22, 23, 24",Risky,Raihan,verified
+P021,nomorPerkara,269/Pid.Sus/2025/PN Gns,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,1,Risky,Raihan,verified
+P021,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,1,Risky,Raihan,verified
+P021,tanggalPutusan,2025-10-13,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,16,Risky,Raihan,verified
+P021,terdakwaKode,C,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,1,Risky,Raihan,verified
+P021,jenisNarkotika,Metamfetamina (Sabu),putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,4,Risky,Raihan,verified
+P021,beratBarangBuktiGram,0.282,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,4,Risky,Raihan,verified
+P021,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,2,Risky,Raihan,verified
+P021,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,15,Risky,Raihan,verified
+P021,tuntutanBulan,84,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,2,Risky,Raihan,verified
+P021,vonisBulan,60,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,15,Risky,Raihan,verified
+P021,dendaRupiah,800000000,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,15,Risky,Raihan,verified
+P021,barangBukti,"5 bungkus plastik klip bening berisi sabu (neto 0,282 g); 4 bungkus plastik klip",putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,9,Risky,Raihan,verified
+P021,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat; Terdakwa sudah pernah dihukum dalam perkara narkotika tahun 2021,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,15,Risky,Raihan,verified
+P021,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan,putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,15,Risky,Raihan,verified
+P021,sourcePages,"halaman 1, 2, 4, 9, 15, 16",putusan_269_pid.sus_2025_pn_gns_20261105125243.pdf,"1, 2, 4, 9, 15, 16",Risky,Raihan,verified
+P022,nomorPerkara,281/Pid.Sus/2025/PN Gns,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,1,Risky,Raihan,verified
+P022,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,1,Risky,Raihan,verified
+P022,tanggalPutusan,2025-10-09,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,29,Risky,Raihan,verified
+P022,terdakwaKode,K,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,1,Risky,Raihan,verified
+P022,jenisNarkotika,Metamfetamina (Sabu),putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,4,Risky,Raihan,verified
+P022,beratBarangBuktiGram,0.106,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,4,Risky,Raihan,verified
+P022,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,2,Risky,Raihan,verified
+P022,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) ke-1 KUHP,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,28,Risky,Raihan,verified
+P022,tuntutanBulan,20,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,2,Risky,Raihan,verified
+P022,vonisBulan,20,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,28,Risky,Raihan,verified
+P022,dendaRupiah,0,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,28,Risky,Raihan,verified
+P022,barangBukti,"1 bungkus plastik klip bening berisi sabu (sisa 0,091 g); 1 alat hisap sabu/bong; 1 pipa kaca/pirek; 1 sumbu api; 2 korek api gas",putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,15,Risky,Raihan,verified
+P022,keadaanMemberatkan,Terdakwa tidak mendukung program pemerintah dalam rangka pemberantasan Narkoba; Terdakwa sudah pernah dipidana,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,26,Risky,Raihan,verified
+P022,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya,putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,26,Risky,Raihan,verified
+P022,sourcePages,"halaman 1, 2, 4, 15, 26, 28, 29",putusan_281_pid.sus_2025_pn_gns_20261105130621.pdf,"1, 2, 4, 15, 26, 28, 29",Risky,Raihan,verified
+P023,nomorPerkara,289/Pid.Sus/2025/PN Gns,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,1,Risky,Raihan,verified
+P023,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,1,Risky,Raihan,verified
+P023,tanggalPutusan,2025-11-06,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,17,Risky,Raihan,verified
+P023,terdakwaKode,HY,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,1,Risky,Raihan,verified
+P023,jenisNarkotika,Metamfetamina (Sabu),putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,4,Risky,Raihan,verified
+P023,beratBarangBuktiGram,0.089,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,4,Risky,Raihan,verified
+P023,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,2,Risky,Raihan,verified
+P023,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,16,Risky,Raihan,verified
+P023,tuntutanBulan,60,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,2,Risky,Raihan,verified
+P023,vonisBulan,56,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,16,Risky,Raihan,verified
+P023,dendaRupiah,1000000000,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,16,Risky,Raihan,verified
+P023,barangBukti,"1 bungkus plastik klip bening berisi sabu (sisa 0,074 g); 1 tas hitam; 1 HP Android Realme hitam; 1 sepeda motor Honda Beat putih tanpa nopol",putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,10,Risky,Raihan,verified
+P023,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,16,Risky,Raihan,verified
+P023,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,16,Risky,Raihan,verified
+P023,sourcePages,"halaman 1, 2, 4, 10, 16, 17",putusan_289_pid.sus_2025_pn_gns_20261105124927.pdf,"1, 2, 4, 10, 16, 17",Risky,Raihan,verified
+P024,nomorPerkara,290/Pid.Sus/2025/PN Gns,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,1,Risky,Raihan,verified
+P024,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,1,Risky,Raihan,verified
+P024,tanggalPutusan,2025-11-04,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,26,Risky,Raihan,verified
+P024,terdakwaKode,HJT,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,1,Risky,Raihan,verified
+P024,jenisNarkotika,(Tembakau Sintetis),putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,5,Risky,Raihan,verified
+P024,beratBarangBuktiGram,7.13,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,5,Risky,Raihan,verified
+P024,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,2,Risky,Raihan,verified
+P024,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,25,Risky,Raihan,verified
+P024,tuntutanBulan,12,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,2,Risky,Raihan,verified
+P024,vonisBulan,10,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,25,Risky,Raihan,verified
+P024,dendaRupiah,0,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,25,Risky,Raihan,verified
+P024,barangBukti,"1 bungkus plastik klip bening berisi tembakau sintetis (neto 7,13 g); 1 HP OPPO A16; 1 sepeda motor Honda Supra X 125 biru Nopol BE 3030 JO",putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,17,Risky,Raihan,verified
+P024,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa dapat merusak dirinya sendiri,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,25,Risky,Raihan,verified
+P024,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa menyesali perbuatannya dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,25,Risky,Raihan,verified
+P024,sourcePages,"halaman 1, 2, 5, 17, 25, 26",putusan_290_pid.sus_2025_pn_gns_20261105125048.pdf,"1, 2, 5, 17, 25, 26",Risky,Raihan,verified
+P025,nomorPerkara,291/Pid.Sus/2025/PN Gns,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,1,Risky,Raihan,verified
+P025,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,1,Risky,Raihan,verified
+P025,tanggalPutusan,2025-11-04,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,24,Risky,Raihan,verified
+P025,terdakwaKode,OTF,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,1,Risky,Raihan,verified
+P025,jenisNarkotika,(Tembakau Sintetis),putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,5,Risky,Raihan,verified
+P025,beratBarangBuktiGram,7.13,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,5,Risky,Raihan,verified
+P025,pasalDakwaan,Pasal 112 ayat (2) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,2,Risky,Raihan,verified
+P025,pasalTerbukti,Pasal 112 ayat (2) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,23,Risky,Raihan,verified
+P025,tuntutanBulan,66,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,2,Risky,Raihan,verified
+P025,vonisBulan,60,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,23,Risky,Raihan,verified
+P025,dendaRupiah,1000000000,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,23,Risky,Raihan,verified
+P025,barangBukti,"1 bungkus plastik klip bening berisi tembakau sintetis (neto 7,13 g); 1 HP OPPO A16; 1 sepeda motor Honda Supra X 125 biru Nopol BE 3030 JO",putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,13,Risky,Raihan,verified
+P025,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas penggunaan Narkoba secara illegal,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,22,Risky,Raihan,verified
+P025,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan di persidangan; Terdakwa belum pernah menjalani hukuman,putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,22,Risky,Raihan,verified
+P025,sourcePages,"halaman 1, 2, 5, 13, 22, 23, 24",putusan_291_pid.sus_2025_pn_gns_20261105125013.pdf,"1, 2, 5, 13, 22, 23, 24",Risky,Raihan,verified
+P026,nomorPerkara,292/Pid.Sus/2025/PN Gns,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,1,Risky,Raihan,verified
+P026,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,1,Risky,Raihan,verified
+P026,tanggalPutusan,2025-10-13,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,19,Risky,Raihan,verified
+P026,terdakwaKode,KH,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,1,Risky,Raihan,verified
+P026,jenisNarkotika,Metamfetamina (Sabu),putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,5,Risky,Raihan,verified
+P026,beratBarangBuktiGram,0.230,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,5,Risky,Raihan,verified
+P026,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,2,Risky,Raihan,verified
+P026,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,18,Risky,Raihan,verified
+P026,tuntutanBulan,60,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,2,Risky,Raihan,verified
+P026,vonisBulan,48,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,18,Risky,Raihan,verified
+P026,dendaRupiah,800000000,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,18,Risky,Raihan,verified
+P026,barangBukti,"2 bungkus plastik klip bening berisi sabu (neto 0,230 g)",putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,11,Risky,Raihan,verified
+P026,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,17,Risky,Raihan,verified
+P026,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan; Terdakwa belum pernah dihukum,putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,17,Risky,Raihan,verified
+P026,sourcePages,"halaman 1, 2, 5, 11, 17, 18, 19",putusan_292_pid.sus_2025_pn_gns_20261105125322.pdf,"1, 2, 5, 11, 17, 18, 19",Risky,Raihan,verified
+P027,nomorPerkara,295/Pid.Sus/2025/PN Gns,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,1,Risky,Raihan,verified
+P027,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,1,Risky,Raihan,verified
+P027,tanggalPutusan,2025-11-17,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,20,Risky,Raihan,verified
+P027,terdakwaKode,W,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,1,Risky,Raihan,verified
+P027,jenisNarkotika,Metamfetamina (Sabu),putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,4,Risky,Raihan,verified
+P027,beratBarangBuktiGram,0.083,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,4,Risky,Raihan,verified
+P027,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,2,Risky,Raihan,verified
+P027,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,19,Risky,Raihan,verified
+P027,tuntutanBulan,72,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,2,Risky,Raihan,verified
+P027,vonisBulan,54,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,19,Risky,Raihan,verified
+P027,dendaRupiah,1000000000,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,19,Risky,Raihan,verified
+P027,barangBukti,"1 bungkus plastik klip bening berisi sabu (neto akhir 0,050 g); 1 kotak rokok Mami Baru kuning",putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,9,Risky,Raihan,verified
+P027,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung upaya pemberantasan narkotika untuk menyelamatkan generasi bangsa,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,18,Risky,Raihan,verified
+P027,keadaanMeringankan,Terdakwa belum pernah dihukum; Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi,putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,18,Risky,Raihan,verified
+P027,sourcePages,"halaman 1, 2, 4, 9, 18, 19, 20",putusan_295_pid.sus_2025_pn_gns_20261105124430.pdf,"1, 2, 4, 9, 18, 19, 20",Risky,Raihan,verified
+P028,nomorPerkara,299/Pid.Sus/2025/PN Gns,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,1,Risky,Raihan,verified
+P028,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,1,Risky,Raihan,verified
+P028,tanggalPutusan,2025-11-04,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,17,Risky,Raihan,verified
+P028,terdakwaKode,XZ,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,1,Risky,Raihan,verified
+P028,jenisNarkotika,Metamfetamina (Sabu),putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,4,Risky,Raihan,verified
+P028,beratBarangBuktiGram,0.270,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,4,Risky,Raihan,verified
+P028,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,2,Risky,Raihan,verified
+P028,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,16,Risky,Raihan,verified
+P028,tuntutanBulan,60,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,2,Risky,Raihan,verified
+P028,vonisBulan,48,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,16,Risky,Raihan,verified
+P028,dendaRupiah,1000000000,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,16,Risky,Raihan,verified
+P028,barangBukti,"3 bungkus plastik bening berisi sabu (sisa 0,239 g); 1 kotak bening",putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,10,Risky,Raihan,verified
+P028,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,16,Risky,Raihan,verified
+P028,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan; Terdakwa belum pernah dihukum,putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,16,Risky,Raihan,verified
+P028,sourcePages,"halaman 1, 2, 4, 10, 16, 17",putusan_299_pid.sus_2025_pn_gns_20261105124942.pdf,"1, 2, 4, 10, 16, 17",Risky,Raihan,verified
+P029,nomorPerkara,302/Pid.Sus/2025/PN Gns,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,1,Risky,Raihan,verified
+P029,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,1,Risky,Raihan,verified
+P029,tanggalPutusan,2025-11-06,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,20,Risky,Raihan,verified
+P029,terdakwaKode,CC,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,1,Risky,Raihan,verified
+P029,jenisNarkotika,Metamfetamina (Sabu),putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,4,Risky,Raihan,verified
+P029,beratBarangBuktiGram,0.091,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,4,Risky,Raihan,verified
+P029,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,2,Risky,Raihan,verified
+P029,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,19,Risky,Raihan,verified
+P029,tuntutanBulan,18,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,2,Risky,Raihan,verified
+P029,vonisBulan,15,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,20,Risky,Raihan,verified
+P029,dendaRupiah,0,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,20,Risky,Raihan,verified
+P029,barangBukti,"1 bungkus plastik klip bening berisi sabu (neto 0,091 g); 1 pipa kaca/pirek",putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,10,Risky,Raihan,verified
+P029,keadaanMemberatkan,Terdakwa tidak mendukung program pemerintah dalam rangka pemberantasan Narkoba; Terdakwa meresahkan masyarakat,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,19,Risky,Raihan,verified
+P029,keadaanMeringankan,Terdakwa belum pernah dihukum; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga,putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,19,Risky,Raihan,verified
+P029,sourcePages,"halaman 1, 2, 4, 10, 19, 20",putusan_302_pid.sus_2025_pn_gns_20261105124911.pdf,"1, 2, 4, 10, 19, 20",Risky,Raihan,verified
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+P030,nomorPerkara,307/Pid.Sus/2025/PN Gns,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,1,Risky,Raihan,verified
+P030,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,1,Risky,Raihan,verified
+P030,tanggalPutusan,2025-11-25,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,28,Risky,Raihan,verified
+P030,terdakwaKode,NFA,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,1,Risky,Raihan,verified
+P030,jenisNarkotika,(Tembakau Sintetis),putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,5,Risky,Raihan,verified
+P030,beratBarangBuktiGram,378.89,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,5,Risky,Raihan,verified
+P030,pasalDakwaan,Pasal 113 ayat (2) UU No. 35 Tahun 2009,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,2,Risky,Raihan,verified
+P030,pasalTerbukti,Pasal 113 ayat (2) UU No. 35 Tahun 2009,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,27,Risky,Raihan,verified
+P030,tuntutanBulan,120,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,2,Risky,Raihan,verified
+P030,vonisBulan,84,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,28,Risky,Raihan,verified
+P030,dendaRupiah,2000000000,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,28,Risky,Raihan,verified
+P030,barangBukti,"8 bungkus plastik klip tembakau sintetis (neto total 110,46 g); 1 wadah tembakau sintetis (neto 268,43 g); 1 bungkus plastik klip tembakau biasa; 1 timbangan digital; 1 wadah kosong; 1 alkohol; 5 plastik klip bekas; 9 plastik klip; 1 set alat mixer",putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,16,Risky,Raihan,verified
+P030,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas penggunaan Narkoba secara illegal,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,27,Risky,Raihan,verified
+P030,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan di persidangan; Terdakwa belum pernah dipidana,putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,27,Risky,Raihan,verified
+P030,sourcePages,"halaman 1, 2, 5, 16, 27, 28",putusan_307_pid.sus_2025_pn_gns_20261105124359.pdf,"1, 2, 5, 16, 27, 28",Risky,Raihan,verified
+P031,nomorPerkara,308/Pid.Sus/2025/PN Gns,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,1,Risky,Raihan,verified
+P031,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,1,Risky,Raihan,verified
+P031,tanggalPutusan,2025-11-04,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,16,Risky,Raihan,verified
+P031,terdakwaKode,KE,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,1,Risky,Raihan,verified
+P031,jenisNarkotika,Metamfetamina (Sabu),putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,4,Risky,Raihan,verified
+P031,beratBarangBuktiGram,1.7120,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,4,Risky,Raihan,verified
+P031,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,2,Risky,Raihan,verified
+P031,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,16,Risky,Raihan,verified
+P031,tuntutanBulan,66,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,2,Risky,Raihan,verified
+P031,vonisBulan,60,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,16,Risky,Raihan,verified
+P031,dendaRupiah,1000000000,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,16,Risky,Raihan,verified
+P031,barangBukti,"1 plastik klip bening berisi sabu (total 1,7120 g); 1 celana panjang hitam; 1 sepeda motor Honda Beat Street hitam Nopol BE 2740 GBU; 1 HP OPPO hijau",putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,10,Risky,Raihan,verified
+P031,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan Masyarakat,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,15,Risky,Raihan,verified
+P031,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya; Terdakwa bersikap sopan dipersidangan; Terdakwa belum pernah menjalani hukuman,putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,15,Risky,Raihan,verified
+P031,sourcePages,"halaman 1, 2, 4, 10, 15, 16, 17",putusan_308_pid.sus_2025_pn_gns_20261105125030.pdf,"1, 2, 4, 10, 15, 16, 17",Risky,Raihan,verified
+P032,nomorPerkara,309/Pid.Sus/2025/PN Gns,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,1,Risky,Raihan,verified
+P032,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,1,Risky,Raihan,verified
+P032,tanggalPutusan,2025-11-18,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,28,Risky,Raihan,verified
+P032,terdakwaKode,JU-MPP,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,1,Risky,Raihan,verified
+P032,jenisNarkotika,Metamfetamina (Sabu),putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,5,Risky,Raihan,verified
+P032,beratBarangBuktiGram,8.096,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,5,Risky,Raihan,verified
+P032,pasalDakwaan,Pasal 114 ayat (2) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,2,Risky,Raihan,verified
+P032,pasalTerbukti,Pasal 114 ayat (2) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,27,Risky,Raihan,verified
+P032,tuntutanBulan,96,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,3,Risky,Raihan,verified
+P032,vonisBulan,72,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,27,Risky,Raihan,verified
+P032,dendaRupiah,1000000000,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,27,Risky,Raihan,verified
+P032,barangBukti,"32 bungkus plastik klip bening berisi sabu (neto 2,558 g); 2 bungkus plastik klip sedang berisi sabu (neto 5,538 g); 2 bendel plastik klip; 1 sekop pipet; 1 botol Happydent",putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,17,Risky,Raihan,verified
+P032,keadaanMemberatkan,Perbuatan Para Terdakwa tidak mendukung program pemerintah dalam pemberantasan narkotika,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,26,Risky,Raihan,verified
+P032,keadaanMeringankan,Para Terdakwa menyesali perbuatannya; Para Terdakwa tidak berbelit-belit dan berterus-terang dalam memberikan keterangan di persidangan,putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,26,Risky,Raihan,verified
+P032,sourcePages,"halaman 1, 2, 5, 17, 26, 27, 28",putusan_309_pid.sus_2025_pn_gns_20261105124415.pdf,"1, 2, 5, 17, 26, 27, 28",Risky,Raihan,verified
+P033,nomorPerkara,313/Pid.Sus/2025/PN Gns,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,1,Risky,Raihan,verified
+P033,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,1,Risky,Raihan,verified
+P033,tanggalPutusan,2025-12-10,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,33,Risky,Raihan,verified
+P033,terdakwaKode,"JX, BU-KKI",putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,1,Risky,Raihan,verified
+P033,jenisNarkotika,(Ganja),putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,5,Risky,Raihan,verified
+P033,beratBarangBuktiGram,978.41,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,5,Risky,Raihan,verified
+P033,pasalDakwaan,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,3,Risky,Raihan,verified
+P033,pasalTerbukti,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,32,Risky,Raihan,verified
+P033,tuntutanBulan,96,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,3,Risky,Raihan,verified
+P033,vonisBulan,66,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,32,Risky,Raihan,verified
+P033,dendaRupiah,1000000000,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,32,Risky,Raihan,verified
+P033,barangBukti,"1 bungkus kotak lakban coklat berisi ganja (neto 859,04 g); 1 bungkus lonjong lakban coklat berisi ganja (neto 119,37 g)",putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,16,Risky,Raihan,verified
+P033,keadaanMemberatkan,Perbuatan Para Terdakwa tidak mendukung program pemerintah dalam memberantas peredaran narkotika dan obat-obatan terlarang; Terdakwa 1 memiliki peran yang sentral dalam terjadinya tindak pidana dalam perkara ini; Terdakwa 2 sudah pernah dihukum dalam perkara tindak pidana penyalahgunaan narkotika; Terdakwa 3 sudah pernah dihukum dalam perkara tindak pidana psikotropika,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,31,Risky,Raihan,verified
+P033,keadaanMeringankan,Para Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulangi perbuatannya; Terdakwa 1 belum pernah dihukum,putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,31,Risky,Raihan,verified
+P033,sourcePages,"halaman 1, 3, 5, 16, 31, 32",putusan_313_pid.sus_2025_pn_gns_20261105124227.pdf,"1, 3, 5, 16, 31, 32",Risky,Raihan,verified
+P034,nomorPerkara,318/Pid.Sus/2025/PN Gns,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,1,Risky,Raihan,verified
+P034,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,1,Risky,Raihan,verified
+P034,tanggalPutusan,2025-11-26,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,24,Risky,Raihan,verified
+P034,terdakwaKode,KJ,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,1,Risky,Raihan,verified
+P034,jenisNarkotika,(Ganja),putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,4,Risky,Raihan,verified
+P034,beratBarangBuktiGram,3.22,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,4,Risky,Raihan,verified
+P034,pasalDakwaan,Pasal 111 ayat (1) UU No. 35 Tahun 2009,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,2,Risky,Raihan,verified
+P034,pasalTerbukti,Pasal 111 ayat (1) UU No. 35 Tahun 2009,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,23,Risky,Raihan,verified
+P034,tuntutanBulan,16,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,2,Risky,Raihan,verified
+P034,vonisBulan,48,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,24,Risky,Raihan,verified
+P034,dendaRupiah,800000000,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,24,Risky,Raihan,verified
+P034,barangBukti,"1 kantong plastik kecil berisi potongan daun ganja (neto 3,22 g); 7 lembar kertas djanoko; 1 korek api gas",putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,14,Risky,Raihan,verified
+P034,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung upaya pemberantasan narkotika untuk menyelamatkan generasi bangsa; Terdakwa pernah dihukum dalam perkara penadahan,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,23,Risky,Raihan,verified
+P034,keadaanMeringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi,putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,23,Risky,Raihan,verified
+P034,sourcePages,"halaman 1, 2, 4, 14, 23, 24",putusan_318_pid.sus_2025_pn_gns_20261105124327.pdf,"1, 2, 4, 14, 23, 24",Risky,Raihan,verified
+P035,nomorPerkara,331/Pid.Sus/2025/PN Gns,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,1,Risky,Raihan,verified
+P035,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,1,Risky,Raihan,verified
+P035,tanggalPutusan,2025-12-22,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,24,Risky,Raihan,verified
+P035,terdakwaKode,TR,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,1,Risky,Raihan,verified
+P035,jenisNarkotika,(Ganja),putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,4,Risky,Raihan,verified
+P035,beratBarangBuktiGram,4230.23,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,4,Risky,Raihan,verified
+P035,pasalDakwaan,Pasal 111 ayat (2) UU No. 35 Tahun 2009,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,2,Risky,Raihan,verified
+P035,pasalTerbukti,Pasal 111 ayat (2) UU No. 35 Tahun 2009,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,23,Risky,Raihan,verified
+P035,tuntutanBulan,120,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,2,Risky,Raihan,verified
+P035,vonisBulan,108,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,23,Risky,Raihan,verified
+P035,dendaRupiah,2000000000,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,23,Risky,Raihan,verified
+P035,barangBukti,"5 bungkus kotak berlakban cokelat berisi daun/batang kering ganja (neto 4.230,23 g, sisa 4.228,50 g)",putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,14,Risky,Raihan,verified
+P035,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,22,Risky,Raihan,verified
+P035,keadaanMeringankan,Terdakwa bersikap sopan sehingga memperlancar jalannya proses persidangan; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah dihukum,putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,22,Risky,Raihan,verified
+P035,sourcePages,"halaman 1, 2, 4, 14, 22, 23, 24",putusan_331_pid.sus_2025_pn_gns_20261105124119.pdf,"1, 2, 4, 14, 22, 23, 24",Risky,Raihan,verified
+P036,nomorPerkara,333/Pid.Sus/2025/PN Gns,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,1,Risky,Raihan,verified
+P036,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,1,Risky,Raihan,verified
+P036,tanggalPutusan,2025-11-17,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,30,Risky,Raihan,verified
+P036,terdakwaKode,CO,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,1,Risky,Raihan,verified
+P036,jenisNarkotika,(Ganja),putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,5,Risky,Raihan,verified
+P036,beratBarangBuktiGram,12.55,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,5,Risky,Raihan,verified
+P036,pasalDakwaan,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,2,Risky,Raihan,verified
+P036,pasalTerbukti,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,29,Risky,Raihan,verified
+P036,tuntutanBulan,108,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,2,Risky,Raihan,verified
+P036,vonisBulan,96,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,29,Risky,Raihan,verified
+P036,dendaRupiah,1000000000,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,29,Risky,Raihan,verified
+P036,barangBukti,"4 bungkus plastik klip bening berisi daun dan biji kering ganja (neto awal 12,55 g, sisa 12,29 g)",putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,17,Risky,Raihan,verified
+P036,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung upaya pemberantasan narkotika untuk menyelamatkan generasi bangsa; Terdakwa pernah dihukum dalam perkara narkotika,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,28,Risky,Raihan,verified
+P036,keadaanMeringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi,putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,28,Risky,Raihan,verified
+P036,sourcePages,"halaman 1, 2, 5, 17, 28, 29, 30",putusan_333_pid.sus_2025_pn_gns_20261105123842.pdf,"1, 2, 5, 17, 28, 29, 30",Risky,Raihan,verified
+P037,nomorPerkara,334/Pid.Sus/2025/PN Gns,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,1,Risky,Raihan,verified
+P037,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,1,Risky,Raihan,verified
+P037,tanggalPutusan,2025-12-17,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,28,Risky,Raihan,verified
+P037,terdakwaKode,JJK,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,1,Risky,Raihan,verified
+P037,jenisNarkotika,(Ganja),putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,5,Risky,Raihan,verified
+P037,beratBarangBuktiGram,673.60,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,5,Risky,Raihan,verified
+P037,pasalDakwaan,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,2,Risky,Raihan,verified
+P037,pasalTerbukti,Pasal 114 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,27,Risky,Raihan,verified
+P037,tuntutanBulan,96,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,2,Risky,Raihan,verified
+P037,vonisBulan,84,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,27,Risky,Raihan,verified
+P037,dendaRupiah,1000000000,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,27,Risky,Raihan,verified
+P037,barangBukti,"1 ampel kertas berisi daun/biji kering ganja (sisa 1,637 g); 1 bungkus kotak berisi daun/biji kering ganja (sisa 671,93 g)",putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,15,Risky,Raihan,verified
+P037,keadaanMemberatkan,Terdakwa pernah dihukum dalam perkara narkotika; Perbuatan Terdakwa tidak mendukung upaya pemberantasan narkotika untuk menyelamatkan generasi bangsa,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,26,Risky,Raihan,verified
+P037,keadaanMeringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi,putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,26,Risky,Raihan,verified
+P037,sourcePages,"halaman 1, 2, 5, 15, 26, 27, 28",putusan_334_pid.sus_2025_pn_gns_20261105123820.pdf,"1, 2, 5, 15, 26, 27, 28",Risky,Raihan,verified
+P038,nomorPerkara,335/Pid.Sus/2025/PN Gns,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,1,Risky,Raihan,verified
+P038,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,1,Risky,Raihan,verified
+P038,tanggalPutusan,2025-11-17,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,23,Risky,Raihan,verified
+P038,terdakwaKode,JR,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,1,Risky,Raihan,verified
+P038,jenisNarkotika,(Ganja),putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,4,Risky,Raihan,verified
+P038,beratBarangBuktiGram,166.05,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,4,Risky,Raihan,verified
+P038,pasalDakwaan,Pasal 111 ayat (1) UU No. 35 Tahun 2009,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,2,Risky,Raihan,verified
+P038,pasalTerbukti,Pasal 111 ayat (1) UU No. 35 Tahun 2009,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,23,Risky,Raihan,verified
+P038,tuntutanBulan,72,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,2,Risky,Raihan,verified
+P038,vonisBulan,72,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,23,Risky,Raihan,verified
+P038,dendaRupiah,800000000,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,23,Risky,Raihan,verified
+P038,barangBukti,"3 bungkusan lonjong berlakban coklat berisi daun/batang kering ganja (neto 166,05 g, sisa 165,24 g); 1 plastik hitam; 1 koper biru merek Aerolite",putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,13,Risky,Raihan,verified
+P038,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung upaya pemberantasan narkotika untuk menyelamatkan generasi bangsa,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,22,Risky,Raihan,verified
+P038,keadaanMeringankan,Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi; Terdakwa belum pernah dihukum,putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,22,Risky,Raihan,verified
+P038,sourcePages,"halaman 1, 2, 4, 13, 22, 23",putusan_335_pid.sus_2025_pn_gns_20261105123803.pdf,"1, 2, 4, 13, 22, 23",Risky,Raihan,verified
+P039,nomorPerkara,338/Pid.Sus/2025/PN Gns,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,1,Risky,Raihan,verified
+P039,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,1,Risky,Raihan,verified
+P039,tanggalPutusan,2025-12-10,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,24,Risky,Raihan,verified
+P039,terdakwaKode,HP,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,1,Risky,Raihan,verified
+P039,jenisNarkotika,Metamfetamina (Sabu),putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,5,Risky,Raihan,verified
+P039,beratBarangBuktiGram,0.170,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,5,Risky,Raihan,verified
+P039,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,2,Risky,Raihan,verified
+P039,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,23,Risky,Raihan,verified
+P039,tuntutanBulan,78,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,2,Risky,Raihan,verified
+P039,vonisBulan,60,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,23,Risky,Raihan,verified
+P039,dendaRupiah,1000000000,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,23,Risky,Raihan,verified
+P039,barangBukti,"2 bungkus plastik klip bening berisi sabu (neto 0,170 g, sisa 0,150 g); 1 bundel plastik klip bening; 1 tas slempang hitam; 1 sekop pipet",putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,12,Risky,Raihan,verified
+P039,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah yang sedang gencar-gencarnya melakukan pemberantasan terhadap penyalahgunaan maupun peredaran narkotika dan obat-obatan terlarang lainnya,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,23,Risky,Raihan,verified
+P039,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah dihukum,putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,23,Risky,Raihan,verified
+P039,sourcePages,"halaman 1, 2, 5, 12, 23, 24",putusan_338_pid.sus_2025_pn_gns_20261105124238.pdf,"1, 2, 5, 12, 23, 24",Risky,Raihan,verified
+P040,nomorPerkara,339/Pid.Sus/2025/PN Gns,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,1,Risky,Raihan,verified
+P040,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,1,Risky,Raihan,verified
+P040,tanggalPutusan,2025-12-08,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,25,Risky,Raihan,verified
+P040,terdakwaKode,JY,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,1,Risky,Raihan,verified
+P040,jenisNarkotika,"Metamfetamina (Sabu), MDMA (Ekstasi)",putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,5,Risky,Raihan,verified
+P040,beratBarangBuktiGram,13.941,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,5,Risky,Raihan,verified
+P040,pasalDakwaan,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,2,Risky,Raihan,verified
+P040,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,24,Risky,Raihan,verified
+P040,tuntutanBulan,108,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,2,Risky,Raihan,verified
+P040,vonisBulan,102,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,24,Risky,Raihan,verified
+P040,dendaRupiah,1000000000,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,24,Risky,Raihan,verified
+P040,barangBukti,"17 bungkus plastik klip bening berisi sabu (neto 11,533 g); 1 bungkus plastik klip berisi 6 tablet ekstasi TMT (neto 2,408 g); 1 timbangan digital; 1 sekop pipet; 2 plastik klip bening; 1 kotak ungu; uang tunai Rp2.985.000",putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,14,Risky,Raihan,verified
+P040,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,23,Risky,Raihan,verified
+P040,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga,putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,23,Risky,Raihan,verified
+P040,sourcePages,"halaman 1, 2, 5, 14, 23, 24, 25",putusan_339_pid.sus_2025_pn_gns_20261105124254.pdf,"1, 2, 5, 14, 23, 24, 25",Risky,Raihan,verified
+P041,nomorPerkara,343/Pid.Sus/2025/PN Gns,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,1,Risky,Raihan,verified
+P041,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,1,Risky,Raihan,verified
+P041,tanggalPutusan,2025-12-18,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,16,Risky,Raihan,verified
+P041,terdakwaKode,HYY,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,1,Risky,Raihan,verified
+P041,jenisNarkotika,Metamfetamina (Sabu),putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,4,Risky,Raihan,verified
+P041,beratBarangBuktiGram,0.437,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,4,Risky,Raihan,verified
+P041,pasalDakwaan,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,2,Risky,Raihan,verified
+P041,pasalTerbukti,Pasal 112 ayat (1) UU No. 35 Tahun 2009,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,15,Risky,Raihan,verified
+P041,tuntutanBulan,84,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,2,Risky,Raihan,verified
+P041,vonisBulan,84,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,15,Risky,Raihan,verified
+P041,dendaRupiah,800000000,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,15,Risky,Raihan,verified
+P041,barangBukti,"5 plastik bening berisi sabu (neto 0,437 g); 1 plastik klip bening; 1 kotak hitam",putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,8,Risky,Raihan,verified
+P041,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program pemberantasan peredaran gelap narkotika serta dapat meresahkan masyarakat; Terdakwa pernah dihukum,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,15,Risky,Raihan,verified
+P041,keadaanMeringankan,Terdakwa mengakui terus terang perbuatannya,putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,15,Risky,Raihan,verified
+P041,sourcePages,"halaman 1, 2, 4, 8, 15, 16",putusan_343_pid.sus_2025_pn_gns_20261105124018.pdf,"1, 2, 4, 8, 15, 16",Risky,Raihan,verified
+P042,nomorPerkara,355/Pid.Sus/2025/PN Gns,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,1,Risky,Raihan,verified
+P042,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,1,Risky,Raihan,verified
+P042,tanggalPutusan,2025-12-08,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,27,Risky,Raihan,verified
+P042,terdakwaKode,"KS, MTJ-KOR",putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,1,Risky,Raihan,verified
+P042,jenisNarkotika,Metamfetamina (Sabu),putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,6,Risky,Raihan,verified
+P042,beratBarangBuktiGram,0.055,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,6,Risky,Raihan,verified
+P042,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,3,Risky,Raihan,verified
+P042,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) ke-1 KUHP,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,26,Risky,Raihan,verified
+P042,tuntutanBulan,15,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,3,Risky,Raihan,verified
+P042,vonisBulan,12,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,26,Risky,Raihan,verified
+P042,dendaRupiah,0,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,26,Risky,Raihan,verified
+P042,barangBukti,"1 bungkus plastik kecil berisi sabu sisa pakai (neto 0,055 g, sisa 0,034 g); 1 alat hisap bong; 2 korek api; 1 pirek; 1 sumbu jarum suntik",putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,16,Risky,Raihan,verified
+P042,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk memberantas penyalahgunaan Narkotika,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,25,Risky,Raihan,verified
+P042,keadaanMeringankan,Para Terdakwa berterus terang dan mengakui segala perbuatannya; Para Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi; Para Terdakwa merupakan tulang punggung keluarga; Para Terdakwa belum pernah dihukum,putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,25,Risky,Raihan,verified
+P042,sourcePages,"halaman 1, 3, 6, 16, 25, 26, 27",putusan_355_pid.sus_2025_pn_gns_20261105124312.pdf,"1, 3, 6, 16, 25, 26, 27",Risky,Raihan,verified
+P043,nomorPerkara,359/Pid.Sus/2025/PN Gns,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,1,Risky,Raihan,verified
+P043,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,1,Risky,Raihan,verified
+P043,tanggalPutusan,2025-12-18,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,33,Risky,Raihan,verified
+P043,terdakwaKode,V,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,1,Risky,Raihan,verified
+P043,jenisNarkotika,Metamfetamina (Sabu),putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,5,Risky,Raihan,verified
+P043,beratBarangBuktiGram,0.135,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,5,Risky,Raihan,verified
+P043,pasalDakwaan,Pasal 112 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,2,Risky,Raihan,verified
+P043,pasalTerbukti,Pasal 112 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,32,Risky,Raihan,verified
+P043,tuntutanBulan,78,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,2,Risky,Raihan,verified
+P043,vonisBulan,54,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,32,Risky,Raihan,verified
+P043,dendaRupiah,800000000,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,32,Risky,Raihan,verified
+P043,barangBukti,"1 bungkus plastik bening berisi sabu (neto 0,135 g, sisa 0,111 g); 1 unit sepeda motor KLX abu-abu Plat XXV 21017-30",putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,19,Risky,Raihan,verified
+P043,keadaanMemberatkan,Terdakwa tidak mendukung program pemerintah dalam rangka pemberantasan Narkoba,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,31,Risky,Raihan,verified
+P043,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa belum pernah dipidana,putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,31,Risky,Raihan,verified
+P043,sourcePages,"halaman 1, 2, 5, 19, 31, 32, 33",putusan_359_pid.sus_2025_pn_gns_20261105124042.pdf,"1, 2, 5, 19, 31, 32, 33",Risky,Raihan,verified
+P044,nomorPerkara,360/Pid.Sus/2025/PN Gns,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,1,Risky,Raihan,verified
+P044,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,1,Risky,Raihan,verified
+P044,tanggalPutusan,2025-12-18,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,31,Risky,Raihan,verified
+P044,terdakwaKode,ARJ-KU,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,1,Risky,Raihan,verified
+P044,jenisNarkotika,Metamfetamina (Sabu),putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,5,Risky,Raihan,verified
+P044,beratBarangBuktiGram,0.135,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,5,Risky,Raihan,verified
+P044,pasalDakwaan,Pasal 112 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,2,Risky,Raihan,verified
+P044,pasalTerbukti,Pasal 112 ayat (1) Jo Pasal 132 ayat (1) UU No. 35 Tahun 2009,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,30,Risky,Raihan,verified
+P044,tuntutanBulan,78,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,2,Risky,Raihan,verified
+P044,vonisBulan,54,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,30,Risky,Raihan,verified
+P044,dendaRupiah,800000000,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,30,Risky,Raihan,verified
+P044,barangBukti,"1 bungkus plastik bening berisi sabu (neto 0,135 g, sisa 0,111 g); 1 unit sepeda motor KLX abu-abu Plat XXV 21017-30",putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,19,Risky,Raihan,verified
+P044,keadaanMemberatkan,Para Terdakwa tidak mendukung program pemerintah dalam rangka pemberantasan Narkoba,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,30,Risky,Raihan,verified
+P044,keadaanMeringankan,Para Terdakwa mengakui dan menyesali perbuatannya; Para Terdakwa belum pernah dipidana,putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,30,Risky,Raihan,verified
+P044,sourcePages,"halaman 1, 2, 5, 19, 30, 31",putusan_360_pid.sus_2025_pn_gns_20261105124057.pdf,"1, 2, 5, 19, 30, 31",Risky,Raihan,verified
+P045,nomorPerkara,362/Pid.Sus/2025/PN Gns,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,1,Risky,Raihan,verified
+P045,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,1,Risky,Raihan,verified
+P045,tanggalPutusan,2025-12-23,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,19,Risky,Raihan,verified
+P045,terdakwaKode,FT,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,1,Risky,Raihan,verified
+P045,jenisNarkotika,Metamfetamina (Sabu),putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,4,Risky,Raihan,verified
+P045,beratBarangBuktiGram,0.441,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,4,Risky,Raihan,verified
+P045,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,2,Risky,Raihan,verified
+P045,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,19,Risky,Raihan,verified
+P045,tuntutanBulan,84,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,2,Risky,Raihan,verified
+P045,vonisBulan,60,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,19,Risky,Raihan,verified
+P045,dendaRupiah,1000000000,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,19,Risky,Raihan,verified
+P045,barangBukti,"1 bungkus plastik klip bening berisi sabu (neto 0,441 g, sisa 0,383 g); 1 plastik klip bening; 1 bendel plastik klip bening; 1 skop sedotan; 1 plastik klip bening",putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,11,Risky,Raihan,verified
+P045,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam upaya memberantas peredaran dan penggunaan Narkoba secara illegal; Perbuatan Terdakwa meresahkan masyarakat,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,18,Risky,Raihan,verified
+P045,keadaanMeringankan,Terdakwa mengakui dan menyesali perbuatannya; Terdakwa merupakan tulang punggung keluarga; Terdakwa belum pernah dihukum,putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,18,Risky,Raihan,verified
+P045,sourcePages,"halaman 1, 2, 4, 11, 18, 19",putusan_362_pid.sus_2025_pn_gns_20261105124138.pdf,1,Risky,Raihan,verified
+P046,nomorPerkara,366/Pid.Sus/2025/PN Gns,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,1,Risky,Raihan,verified
+P046,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,1,Risky,Raihan,verified
+P046,tanggalPutusan,2025-12-17,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,19,Risky,Raihan,verified
+P046,terdakwaKode,JO,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,1,Risky,Raihan,verified
+P046,jenisNarkotika,Metamfetamina (Sabu),putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,4,Risky,Raihan,verified
+P046,beratBarangBuktiGram,2.788,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,4,Risky,Raihan,verified
+P046,pasalDakwaan,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,2,Risky,Raihan,verified
+P046,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,19,Risky,Raihan,verified
+P046,tuntutanBulan,84,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,2,Risky,Raihan,verified
+P046,vonisBulan,72,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,18,Risky,Raihan,verified
+P046,dendaRupiah,1000000000,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,18,Risky,Raihan,verified
+P046,barangBukti,"1 bungkus plastik klip sedang berisi sabu (sisa 1,717 g); 8 bungkus plastik klip kecil berisi sabu (sisa 0,888 g); 1 kotak rokok Dji Sam Soe hitam; 3 bungkus plastik klip sedang",putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,11,Risky,Raihan,verified
+P046,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan peredaran gelap Narkotika,putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,18,Risky,Raihan,verified
+P046,keadaanMeringankan,"Terdakwa bersikap sopan, jujur dan tidak menyulitkan jalannya persidangan",putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,18,Risky,Raihan,verified
+P046,sourcePages,"halaman 1, 2, 4, 11, 18, 19",putusan_366_pid.sus_2025_pn_gns_20261105123747.pdf,"1, 2, 4, 11, 18, 19",Risky,Raihan,verified
+P047,nomorPerkara,367/Pid.Sus/2025/PN Gns,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,1,Risky,Raihan,verified
+P047,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,1,Risky,Raihan,verified
+P047,tanggalPutusan,2025-12-17,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,26,Risky,Raihan,verified
+P047,terdakwaKode,A-CVC,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,1,Risky,Raihan,verified
+P047,jenisNarkotika,Metamfetamina (Sabu),putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,5,Risky,Raihan,verified
+P047,beratBarangBuktiGram,0.418,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,5,Risky,Raihan,verified
+P047,pasalDakwaan,Pasal 127 Ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,2,Risky,Raihan,verified
+P047,pasalTerbukti,Pasal 127 Ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) KUHP,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,25,Risky,Raihan,verified
+P047,tuntutanBulan,24,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,3,Risky,Raihan,verified
+P047,vonisBulan,30,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,25,Risky,Raihan,verified
+P047,dendaRupiah,0,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,25,Risky,Raihan,verified
+P047,barangBukti,"2 bungkus plastik bening berisi sabu (neto 0,418 g); 1 kotak rokok Clas Mild",putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,16,Risky,Raihan,verified
+P047,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk mencegah dan memberantas penyalahgunaan dan peredaran gelap narkotika; Terdakwa 2 Fredi Eka Setianto Bin Eko Subiyanto pernah dihukum berdasarkan Putusan Pengadilan Negeri Metro nomor 178/Pid.Sus/2018/PN Met,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,24,Risky,Raihan,verified
+P047,keadaanMeringankan,Para Terdakwa mengakui perbuatannya; Terdakwa 1 Eliyanto Bin Suradi belum pernah dihukum,putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,24,Risky,Raihan,verified
+P047,sourcePages,"halaman 1, 2, 5, 16, 24, 25, 26",putusan_367_pid.sus_2025_pn_gns_20261105123724.pdf,"1, 2, 5, 16, 24, 25, 26",Risky,Raihan,verified
+P048,nomorPerkara,370/Pid.Sus/2025/PN Gns,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,1,Risky,Raihan,verified
+P048,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,1,Risky,Raihan,verified
+P048,tanggalPutusan,2025-12-23,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,23,Risky,Raihan,verified
+P048,terdakwaKode,KUJJ-AR,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,1,Risky,Raihan,verified
+P048,jenisNarkotika,Metamfetamina (Sabu),putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,5,Risky,Raihan,verified
+P048,beratBarangBuktiGram,0.579,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,5,Risky,Raihan,verified
+P048,pasalDakwaan,Pasal 127 Ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,2,Risky,Raihan,verified
+P048,pasalTerbukti,Pasal 127 Ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) KUHP,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,22,Risky,Raihan,verified
+P048,tuntutanBulan,14,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,3,Risky,Raihan,verified
+P048,vonisBulan,10,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,22,Risky,Raihan,verified
+P048,dendaRupiah,0,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,22,Risky,Raihan,verified
+P048,barangBukti,"2 bungkus plastik klip bening berisi sabu (neto 0,579 g); 1 plastik klip sedang; 1 plastik klip kecil; 2 kaca/pirek; 2 pipet sedotan; 1 korek api gas; 1 kotak kacamata hitam",putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,15,Risky,Raihan,verified
+P048,keadaanMemberatkan,Para Terdakwa tidak mendukung program pemerintah dalam rangka pemberantasan Narkoba; Para Terdakwa meresahkan masyarakat,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,21,Risky,Raihan,verified
+P048,keadaanMeringankan,Para Terdakwa belum pernah dihukum; Para Terdakwa mengakui dan menyesali perbuatannya; Para Terdakwa bersikap sopan dan tidak berbelit-belit di persidangan,putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,21,Risky,Raihan,verified
+P048,sourcePages,"halaman 1, 2, 5, 15, 21, 22, 23",putusan_370_pid.sus_2025_pn_gns_20261105124209.pdf,"1, 2, 5, 15, 21, 22, 23",Risky,Raihan,verified
+P049,nomorPerkara,381/Pid.Sus/2025/PN Gns,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,1,Risky,Raihan,verified
+P049,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,1,Risky,Raihan,verified
+P049,tanggalPutusan,2025-12-23,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,24,Risky,Raihan,verified
+P049,terdakwaKode,K,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,1,Risky,Raihan,verified
+P049,jenisNarkotika,"Metamfetamina (Sabu), MDMA (Ekstasi)",putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,5,Risky,Raihan,verified
+P049,beratBarangBuktiGram,0.160,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,5,Risky,Raihan,verified
+P049,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,2,Risky,Raihan,verified
+P049,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,23,Risky,Raihan,verified
+P049,tuntutanBulan,24,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,2,Risky,Raihan,verified
+P049,vonisBulan,22,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,23,Risky,Raihan,verified
+P049,dendaRupiah,0,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,23,Risky,Raihan,verified
+P049,barangBukti,"1 pecahan tablet ekstasi (neto 0,071 g); 1 bungkus plastik klip bening bekas sabu (neto 0,003 g); 1 alat hisap bong; 1 pipa kaca/pirek; 1 jarum sumbu api; 2 korek api gas",putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,15,Risky,Raihan,verified
+P049,keadaanMemberatkan,Terdakwa tidak mendukung program pemerintah dalam rangka pemberantasan Narkoba; Terdakwa meresahkan masyarakat,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,22,Risky,Raihan,verified
+P049,keadaanMeringankan,Terdakwa belum pernah dihukum; Terdakwa mengakui dan menyesali perbuatannya; Terdakwa bersikap sopan dan tidak berbelit-belit di persidangan,putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,22,Risky,Raihan,verified
+P049,sourcePages,"halaman 1, 2, 5, 15, 22, 23, 24",putusan_381_pid.sus_2025_pn_gns_20261105124154.pdf,"1, 2, 5, 15, 22, 23, 24",Risky,Raihan,verified
+P050,nomorPerkara,389/Pid.Sus/2024/PN Gns,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,1,Risky,Raihan,verified
+P050,pengadilan,Pengadilan Negeri Gunung Sugih,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,1,Risky,Raihan,verified
+P050,tanggalPutusan,2025-01-07,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,28,Risky,Raihan,verified
+P050,terdakwaKode,OR-CK,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,1,Risky,Raihan,verified
+P050,jenisNarkotika,Metamfetamina (Sabu),putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,7,Risky,Raihan,verified
+P050,beratBarangBuktiGram,0.095,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,7,Risky,Raihan,verified
+P050,pasalDakwaan,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 KUHP,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,3,Risky,Raihan,verified
+P050,pasalTerbukti,Pasal 127 ayat (1) huruf a UU No. 35 Tahun 2009 Jo Pasal 55 ayat (1) ke-1 KUHP,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,27,Risky,Raihan,verified
+P050,tuntutanBulan,18,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,3,Risky,Raihan,verified
+P050,vonisBulan,12,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,27,Risky,Raihan,verified
+P050,dendaRupiah,0,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,27,Risky,Raihan,verified
+P050,barangBukti,"1 bungkus plastik klip bening dibalut kertas putih berisi sabu (neto awal 0,095 g, sisa 0,066 g); 1 unit sepeda motor Honda Beat hijau putih Nopol B 3859 FRX",putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,18,Risky,Raihan,verified
+P050,keadaanMemberatkan,Perbuatan Para Terdakwa bertentangan dengan program pemerintah untuk memberantas penyalahgunaan Narkotika; Perbuatan Para Terdakwa dapat merusak dirinya sendiri,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,26,Risky,Raihan,verified
+P050,keadaanMeringankan,Para Terdakwa berterus terang dan mengakui segala perbuatannya; Para Terdakwa menyesali perbuatannya dan berjanji tidak akan mengulanginya lagi; Para Terdakwa belum pernah menjalani hukuman,putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,26,Risky,Raihan,verified
+P050,sourcePages,"halaman 1, 3, 7, 18, 26, 27, 28",putusan_389_pid.sus_2024_pn_gns_20261108191114.pdf,"1, 3, 7, 18, 26, 27, 28",Risky,Raihan,verified
