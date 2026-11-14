@@ -88,3 +88,4 @@ public class StatistikController {
             System.out.println(jenis[i] + " : " + jumlah[i] + " putusan");
         }
     }
+}
