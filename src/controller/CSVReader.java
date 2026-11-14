@@ -105,3 +105,104 @@ public class CSVReader {
 
         return hasil;
     }
+
+    private static void validasiIsi(String[] kolom, PutusanController controller) {
+
+        if (kolom[0].trim().isEmpty()) {
+            throw new IllegalArgumentException("caseId kosong");
+        }
+
+        if (kolom[1].trim().isEmpty()) {
+            throw new IllegalArgumentException("nomorPerkara kosong");
+        }
+
+        if (kolom[2].trim().isEmpty()) {
+            throw new IllegalArgumentException("pengadilan kosong");
+        }
+
+        if (controller.cariPosisiCaseId(kolom[0].trim()) != -1) {
+            throw new IllegalArgumentException(
+                    "caseId duplikat: " + kolom[0].trim());
+        }
+
+        parseTanggal(kolom[3]);
+
+        if (parseDouble(kolom[6]) < 0) {
+            throw new IllegalArgumentException("berat barang bukti negatif");
+        }
+
+        if (parseInt(kolom[9]) < 0) {
+            throw new IllegalArgumentException("tuntutan negatif");
+        }
+
+        if (parseInt(kolom[10]) < 0) {
+            throw new IllegalArgumentException("vonis negatif");
+        }
+
+        if (parseLong(kolom[11]) < 0) {
+            throw new IllegalArgumentException("denda negatif");
+        }
+    }
+
+    private static String[] pisahkanCSV(String baris) {
+
+        java.util.ArrayList<String> hasil = new java.util.ArrayList<>();
+        StringBuilder nilai = new StringBuilder();
+        boolean dalamKutip = false;
+
+        for (int i = 0; i < baris.length(); i++) {
+            char karakter = baris.charAt(i);
+
+            if (karakter == '"') {
+                if (dalamKutip && i + 1 < baris.length()
+                        && baris.charAt(i + 1) == '"') {
+                    nilai.append('"');
+                    i++;
+                } else {
+                    dalamKutip = !dalamKutip;
+                }
+            } else if (karakter == ',' && !dalamKutip) {
+                hasil.add(nilai.toString());
+                nilai.setLength(0);
+            } else {
+                nilai.append(karakter);
+            }
+        }
+
+        hasil.add(nilai.toString());
+
+        return hasil.toArray(new String[0]);
+    }
+
+    private static LocalDate parseTanggal(String nilai) {
+        if (nilai == null || nilai.trim().isEmpty()) {
+            return null;
+        }
+
+        return LocalDate.parse(nilai.trim());
+    }
+
+    private static double parseDouble(String nilai) {
+        if (nilai == null || nilai.trim().isEmpty()) {
+            return 0;
+        }
+
+        return Double.parseDouble(nilai.trim());
+    }
+
+    private static int parseInt(String nilai) {
+        if (nilai == null || nilai.trim().isEmpty()) {
+            return 0;
+        }
+
+        return Integer.parseInt(nilai.trim());
+    }
+
+    private static long parseLong(String nilai) {
+        if (nilai == null || nilai.trim().isEmpty()) {
+            return 0;
+        }
+
+        return Long.parseLong(nilai.trim());
+    }
+}
