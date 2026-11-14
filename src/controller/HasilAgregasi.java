@@ -6,7 +6,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class HasilAgregasi {
-
+//..
     public static class Entri {
         private final String nama;
         private int jumlah;
